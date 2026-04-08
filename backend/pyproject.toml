@@ -1,0 +1,68 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "foodbase"
+version = "0.1.0"
+description = "Backend foundation for a Greek food supplier discovery platform."
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [
+  { name = "Foodbase" }
+]
+dependencies = [
+  "alembic>=1.16,<2.0",
+  "beautifulsoup4>=4.12,<5.0",
+  "cloudscraper>=1.2,<2.0",
+  "fastapi>=0.115,<1.0",
+  "lxml>=5.0,<7.0",
+  "pydantic-settings>=2.10,<3.0",
+  "psycopg[binary]>=3.2,<4.0",
+  "sqlalchemy>=2.0,<3.0",
+  "uvicorn[standard]>=0.35,<1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "httpx>=0.28,<1.0",
+  "mypy>=1.16,<2.0",
+  "pytest>=8.3,<9.0",
+  "pytest-asyncio>=1.0,<2.0",
+  "pytest-cov>=6.0,<7.0",
+  "ruff>=0.11,<1.0",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-q --cov=foodbase --cov-report=term-missing"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "N"]
+
+[tool.mypy]
+python_version = "3.12"
+plugins = []
+warn_unused_configs = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+strict_optional = true
+disallow_untyped_defs = true
+no_implicit_optional = true
+pretty = true
+mypy_path = "src"
+
+[[tool.mypy.overrides]]
+module = ["cloudscraper"]
+ignore_missing_imports = true

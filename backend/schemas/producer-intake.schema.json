@@ -1,0 +1,811 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://foodbase.local/schemas/producer-intake.schema.json",
+  "title": "Foodbase Producer Intake",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "company",
+    "research_status",
+    "stage_coverage",
+    "offerings",
+    "sources"
+  ],
+  "properties": {
+    "research_status": {
+      "type": "string",
+      "enum": [
+        "seeded",
+        "scraped",
+        "manually_reviewed",
+        "contacted",
+        "verified",
+        "rejected"
+      ]
+    },
+    "company": {
+      "$ref": "#/$defs/company"
+    },
+    "market_presence": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "serves_greece": {
+          "type": "boolean"
+        },
+        "regions_in_greece": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "export_markets": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "supported_languages": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "channels": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "retail",
+              "horeca",
+              "wholesale",
+              "distributor",
+              "industrial",
+              "export",
+              "ecommerce"
+            ]
+          }
+        },
+        "export_license_status": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "unknown",
+            "not_required",
+            "held",
+            "not_held",
+            "pending",
+            null
+          ]
+        },
+        "export_license_notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "stage_coverage": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "enum": [
+          "ingredient_sourcing",
+          "agricultural_production",
+          "primary_processing",
+          "product_development",
+          "manufacturing",
+          "private_label",
+          "packaging",
+          "warehousing",
+          "cold_chain",
+          "distribution",
+          "export_shipping"
+        ]
+      }
+    },
+    "offerings": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/offering"
+      }
+    },
+    "capabilities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "certifications": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/certification"
+      }
+    },
+    "geographical_indications": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/geographical_indication"
+      }
+    },
+    "facilities": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/facility"
+      }
+    },
+    "contacts": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/contact"
+      }
+    },
+    "capacity_profiles": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/capacity_profile"
+      }
+    },
+    "commercial_terms": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "minimum_order_quantity": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "lead_time": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sample_policy": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "incoterms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "logistics": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "temperature_zones": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "ambient",
+              "chilled",
+              "frozen",
+              "multi_temperature"
+            ]
+          }
+        },
+        "own_fleet": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "tracking_available": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "warehouse_management_system": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "public_data_gaps": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "$defs": {
+    "company": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "display_name",
+        "organization_type"
+      ],
+      "properties": {
+        "display_name": {
+          "type": "string"
+        },
+        "legal_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "vat_number": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "company_registration_number": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "organization_type": {
+          "type": "string",
+          "enum": [
+            "producer",
+            "manufacturer",
+            "processor",
+            "packaging_supplier",
+            "logistics_provider",
+            "mixed"
+          ]
+        },
+        "founded_year": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1800,
+          "maximum": 2100
+        },
+        "ownership_model": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "private_company",
+            "cooperative",
+            "producer_group",
+            "public_company",
+            "other",
+            null
+          ]
+        },
+        "employee_count_range": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "website_url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "country_code": {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 2
+        },
+        "headquarters_city": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "headquarters_region": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "summary": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "priority_tier": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "maximum": 3
+        }
+      }
+    },
+    "offering": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "offering_type"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "subcategory": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "variety_or_cultivar": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "offering_type": {
+          "type": "string",
+          "enum": [
+            "ingredient",
+            "finished_product",
+            "packaging",
+            "logistics_service",
+            "service"
+          ]
+        },
+        "product_tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "packaging_formats": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "stage_coverage": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "ingredient_sourcing",
+              "agricultural_production",
+              "primary_processing",
+              "product_development",
+              "manufacturing",
+              "private_label",
+              "packaging",
+              "warehousing",
+              "cold_chain",
+              "distribution",
+              "export_shipping"
+            ]
+          }
+        },
+        "private_label_supported": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "certification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "certification_type": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "food_safety",
+            "quality",
+            "organic",
+            "origin_label",
+            "religious",
+            "social_compliance",
+            "facility_registration",
+            "market_access",
+            "other",
+            null
+          ]
+        },
+        "certificate_number": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "certified_by": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "scope": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "status": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "claimed",
+            "verified",
+            null
+          ]
+        },
+        "issued_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "expires_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        }
+      }
+    },
+    "geographical_indication": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "designation_type"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "designation_type": {
+          "type": "string",
+          "enum": [
+            "PDO",
+            "PGI",
+            "TSG"
+          ]
+        },
+        "product_category": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "approval_status": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "claimed",
+            "authorized",
+            "verified",
+            "revoked",
+            "expired",
+            null
+          ]
+        },
+        "approved_by": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "approval_reference": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "valid_from": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "valid_until": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "source_registry": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "ministry",
+            "elgo_dimitra",
+            "eambrosia",
+            "manual",
+            null
+          ]
+        },
+        "registry_url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "specification_url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "facility": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "facility_type"
+      ],
+      "properties": {
+        "facility_type": {
+          "type": "string",
+          "enum": [
+            "head_office",
+            "factory",
+            "warehouse",
+            "cold_store",
+            "distribution_center",
+            "other"
+          ]
+        },
+        "city": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "region": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "address": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "temperature_zones": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "ambient",
+              "chilled",
+              "frozen",
+              "multi_temperature"
+            ]
+          }
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "capacity_profile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "capacity_scope",
+        "capacity_kind"
+      ],
+      "properties": {
+        "capacity_scope": {
+          "type": "string",
+          "enum": [
+            "organization",
+            "offering",
+            "facility",
+            "offering_at_facility"
+          ]
+        },
+        "scope_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "capacity_kind": {
+          "type": "string",
+          "enum": [
+            "annual_production",
+            "available_capacity",
+            "storage_capacity",
+            "throughput"
+          ]
+        },
+        "quantity": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "unit": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "available_quantity": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "available_unit": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "season_start_month": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "maximum": 12
+        },
+        "season_end_month": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "maximum": 12
+        },
+        "lead_time_weeks": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "minimum_order_quantity": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "contact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "contact_type",
+        "value"
+      ],
+      "properties": {
+        "contact_type": {
+          "type": "string",
+          "enum": [
+            "email",
+            "phone",
+            "website",
+            "linkedin",
+            "contact_form"
+          ]
+        },
+        "label": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "value": {
+          "type": "string"
+        },
+        "is_primary": {
+          "type": "boolean"
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "url",
+        "source_type"
+      ],
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "source_type": {
+          "type": "string",
+          "enum": [
+            "official_website",
+            "technical_document",
+            "catalog",
+            "trade_directory",
+            "manual_note"
+          ]
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}

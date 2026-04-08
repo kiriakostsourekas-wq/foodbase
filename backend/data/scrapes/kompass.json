@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "record_count": 0,
+    "merged_record_count": 0,
+    "failures": [
+      {
+        "source": "kompass",
+        "error": "403 Client Error: Forbidden for url: https://gr.kompass.com/s/agriculture-food/01/"
+      }
+    ]
+  },
+  "source_records": [],
+  "merged_records": []
+}

@@ -1,0 +1,2 @@
+"""Foodbase backend package."""
+

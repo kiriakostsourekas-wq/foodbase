@@ -1,0 +1,1185 @@
+[
+  {
+    "research_status": "manually_reviewed",
+    "company": {
+      "display_name": "Vamvalis Foods",
+      "legal_name": "Vamvalis Foods S.A.",
+      "organization_type": "manufacturer",
+      "website_url": "https://www.vamvalisfoods.com/",
+      "country_code": "GR",
+      "headquarters_city": "Thessaloniki",
+      "headquarters_region": "Central Macedonia",
+      "summary": "Greek private-label manufacturer spanning sourcing, R&D, packaging, warehousing and export shipping.",
+      "priority_tier": 1
+    },
+    "market_presence": {
+      "serves_greece": true,
+      "regions_in_greece": [
+        "Central Macedonia"
+      ],
+      "export_markets": [
+        "Europe"
+      ],
+      "channels": [
+        "retail",
+        "distributor",
+        "export"
+      ]
+    },
+    "stage_coverage": [
+      "ingredient_sourcing",
+      "product_development",
+      "manufacturing",
+      "private_label",
+      "packaging",
+      "warehousing",
+      "export_shipping"
+    ],
+    "offerings": [
+      {
+        "name": "Nuts, seeds, dried fruits and spices",
+        "offering_type": "ingredient",
+        "product_tags": [
+          "nuts",
+          "seeds",
+          "dried fruits",
+          "spices",
+          "binding ingredients"
+        ],
+        "stage_coverage": [
+          "ingredient_sourcing"
+        ],
+        "private_label_supported": false,
+        "notes": "Public site emphasizes certified sourcing partners across the globe."
+      },
+      {
+        "name": "Bars and bites manufacturing",
+        "offering_type": "finished_product",
+        "product_tags": [
+          "bars",
+          "bites",
+          "organic snacks"
+        ],
+        "stage_coverage": [
+          "product_development",
+          "manufacturing",
+          "private_label"
+        ],
+        "private_label_supported": true,
+        "notes": "Site positions the company as one of the largest organic bar manufacturers in Europe."
+      },
+      {
+        "name": "Packaging and shipping support",
+        "offering_type": "packaging",
+        "product_tags": [
+          "pillow bags",
+          "four corner bags",
+          "doypacks",
+          "tray packs"
+        ],
+        "stage_coverage": [
+          "packaging",
+          "export_shipping"
+        ],
+        "private_label_supported": true,
+        "notes": "Public site states pallet-sized minimums and transport agreements under varying incoterms."
+      }
+    ],
+    "capabilities": [
+      "private_label",
+      "custom_product_development",
+      "packaging_design_support",
+      "gluten_free_facility",
+      "pallet_scale_entry",
+      "export_shipping"
+    ],
+    "certifications": [
+      {
+        "name": "IFS",
+        "scope": "Food manufacturing",
+        "status": "claimed"
+      },
+      {
+        "name": "SMETA",
+        "scope": "Social and ethical compliance",
+        "status": "claimed"
+      },
+      {
+        "name": "AIB",
+        "scope": "Food safety and quality",
+        "status": "claimed"
+      },
+      {
+        "name": "ISO 22000",
+        "scope": "Food safety management",
+        "status": "claimed"
+      }
+    ],
+    "facilities": [
+      {
+        "facility_type": "factory",
+        "city": "Thessaloniki",
+        "region": "Central Macedonia",
+        "address": null,
+        "temperature_zones": [
+          "ambient"
+        ],
+        "notes": "Climate-controlled production, warehousing and logistics buildings near Thessaloniki port."
+      }
+    ],
+    "contacts": [
+      {
+        "contact_type": "email",
+        "label": "General",
+        "value": "info@vamvalisfoods.com",
+        "is_primary": true
+      },
+      {
+        "contact_type": "email",
+        "label": "Sales",
+        "value": "sales@vamvalisfoods.com",
+        "is_primary": false
+      },
+      {
+        "contact_type": "phone",
+        "label": "Main",
+        "value": "+30 2310 751646",
+        "is_primary": false
+      }
+    ],
+    "commercial_terms": {
+      "minimum_order_quantity": "Public site states collaborations can start from pallet-sized minimum order quantities.",
+      "lead_time": null,
+      "sample_policy": null,
+      "incoterms": []
+    },
+    "public_data_gaps": [
+      "Exact MOQ by SKU and packaging format",
+      "Lead times by product family",
+      "Complete certification pack",
+      "Exact export lanes and incoterms"
+    ],
+    "sources": [
+      {
+        "url": "https://www.vamvalisfoods.com/our-process/",
+        "source_type": "official_website",
+        "notes": "Primary source for sourcing, facilities, certifications and logistics claims."
+      }
+    ]
+  },
+  {
+    "research_status": "manually_reviewed",
+    "company": {
+      "display_name": "MYST",
+      "legal_name": null,
+      "organization_type": "mixed",
+      "website_url": "https://www.myst.gr/",
+      "country_code": "GR",
+      "headquarters_city": "Katerini",
+      "headquarters_region": "Central Macedonia",
+      "summary": "Greek food brand and B2B supplier covering pantry products and HORECA categories.",
+      "priority_tier": 1
+    },
+    "market_presence": {
+      "serves_greece": true,
+      "regions_in_greece": [
+        "Central Macedonia"
+      ],
+      "export_markets": [
+        "Sweden"
+      ],
+      "channels": [
+        "retail",
+        "horeca",
+        "wholesale",
+        "export"
+      ]
+    },
+    "stage_coverage": [
+      "ingredient_sourcing",
+      "product_development",
+      "manufacturing",
+      "packaging",
+      "warehousing",
+      "export_shipping"
+    ],
+    "offerings": [
+      {
+        "name": "Greek pantry ingredients and packaged foods",
+        "offering_type": "finished_product",
+        "product_tags": [
+          "aromatic herbs",
+          "olive oil",
+          "olives and pickles",
+          "tea",
+          "honey and bee pollen",
+          "salt",
+          "spice and seasonings",
+          "shots and drinks"
+        ],
+        "stage_coverage": [
+          "ingredient_sourcing",
+          "manufacturing",
+          "packaging"
+        ],
+        "private_label_supported": null,
+        "notes": "Public site shows extensive consumer and B2B category coverage."
+      },
+      {
+        "name": "HORECA mixes and seasonings",
+        "offering_type": "service",
+        "product_tags": [
+          "pizza sauce mix",
+          "feta seasoning",
+          "greek salad mix",
+          "souvlaki mix",
+          "gyros mix",
+          "tzatziki mix"
+        ],
+        "stage_coverage": [
+          "product_development",
+          "manufacturing"
+        ],
+        "private_label_supported": null,
+        "notes": "HORECA product pages expose professional kitchen use-cases."
+      }
+    ],
+    "capabilities": [
+      "b2b_partnerships",
+      "horeca_supply",
+      "multi_warehouse_presence",
+      "export_sales_contact"
+    ],
+    "facilities": [
+      {
+        "facility_type": "head_office",
+        "city": "Katerini",
+        "region": "Central Macedonia",
+        "address": "Thesi Kanalos 0, Skotina Katerini, Pieria, 60063 Greece",
+        "temperature_zones": [],
+        "notes": "Greek office listed on contact page."
+      },
+      {
+        "facility_type": "warehouse",
+        "city": "Katerini",
+        "region": "Central Macedonia",
+        "address": "Periferiakos Komvos, Skotinas Katerini, Pieria, 60063 Greece",
+        "temperature_zones": [],
+        "notes": "Greek warehouse listed on contact page."
+      }
+    ],
+    "contacts": [
+      {
+        "contact_type": "email",
+        "label": "International Sales",
+        "value": "sales@myst.gr",
+        "is_primary": true
+      },
+      {
+        "contact_type": "email",
+        "label": "General",
+        "value": "hello@myst.gr",
+        "is_primary": false
+      },
+      {
+        "contact_type": "phone",
+        "label": "Greece",
+        "value": "+30 2351 235131",
+        "is_primary": false
+      }
+    ],
+    "public_data_gaps": [
+      "Whether private-label manufacturing is available",
+      "MOQ and lead-time policy",
+      "Exact plant-level certifications",
+      "Packaging formats by category"
+    ],
+    "sources": [
+      {
+        "url": "https://www.myst.gr/contact/",
+        "source_type": "official_website",
+        "notes": "Primary source for contact details, categories and B2B orientation."
+      },
+      {
+        "url": "https://www.myst.gr/el/horeca/",
+        "source_type": "official_website",
+        "notes": "Source for HORECA-specific product range."
+      }
+    ]
+  },
+  {
+    "research_status": "manually_reviewed",
+    "company": {
+      "display_name": "Paltsidis Hellenic Gastronomy",
+      "legal_name": null,
+      "organization_type": "manufacturer",
+      "website_url": "https://www.paltsidis.gr/",
+      "country_code": "GR",
+      "headquarters_city": null,
+      "headquarters_region": null,
+      "summary": "Greek private-label manufacturer across dips, sauces, seafood and refrigerated categories.",
+      "priority_tier": 1
+    },
+    "market_presence": {
+      "serves_greece": true,
+      "regions_in_greece": [],
+      "export_markets": [],
+      "channels": [
+        "retail",
+        "horeca",
+        "wholesale",
+        "industrial"
+      ]
+    },
+    "stage_coverage": [
+      "product_development",
+      "manufacturing",
+      "private_label",
+      "packaging"
+    ],
+    "offerings": [
+      {
+        "name": "Mediterranean retail and HORECA food categories",
+        "offering_type": "finished_product",
+        "product_tags": [
+          "vegan products",
+          "dips",
+          "salads",
+          "refrigerated sauces",
+          "shelf stable sauces",
+          "mustard",
+          "ketchup",
+          "greek dessert",
+          "seafood",
+          "tarama paste",
+          "antipasti",
+          "field products"
+        ],
+        "stage_coverage": [
+          "manufacturing",
+          "private_label"
+        ],
+        "private_label_supported": true,
+        "notes": "Public site splits categories across retail and HORECA."
+      }
+    ],
+    "capabilities": [
+      "private_label",
+      "personalized_recipes",
+      "packaging_options",
+      "product_design_support"
+    ],
+    "public_data_gaps": [
+      "Exact certifications",
+      "Facility locations",
+      "MOQ and lead times",
+      "Export coverage and logistics model"
+    ],
+    "sources": [
+      {
+        "url": "https://www.paltsidis.gr/en/private-label/",
+        "source_type": "official_website",
+        "notes": "Primary source for private-label and category coverage."
+      }
+    ]
+  },
+  {
+    "research_status": "manually_reviewed",
+    "company": {
+      "display_name": "Novafood",
+      "legal_name": "P. Vlantis S.S. Ltd.",
+      "organization_type": "manufacturer",
+      "website_url": "https://novafood.gr/",
+      "country_code": "GR",
+      "headquarters_city": "Ilioupoli, Athens",
+      "headquarters_region": "Attica",
+      "summary": "Greek sweetener and jam manufacturer with explicit private-label and tailor-made production.",
+      "priority_tier": 1
+    },
+    "market_presence": {
+      "serves_greece": true,
+      "regions_in_greece": [
+        "Attica"
+      ],
+      "export_markets": [],
+      "channels": [
+        "retail",
+        "wholesale",
+        "industrial"
+      ]
+    },
+    "stage_coverage": [
+      "manufacturing",
+      "private_label",
+      "packaging"
+    ],
+    "offerings": [
+      {
+        "name": "Sweeteners and jams",
+        "offering_type": "finished_product",
+        "product_tags": [
+          "classic sweeteners",
+          "stevia products",
+          "jams"
+        ],
+        "stage_coverage": [
+          "manufacturing",
+          "private_label"
+        ],
+        "private_label_supported": true,
+        "notes": "Site states private-label and customized products are available."
+      }
+    ],
+    "capabilities": [
+      "private_label",
+      "tailor_made_products"
+    ],
+    "certifications": [
+      {
+        "name": "HACCP",
+        "scope": "Certified facilities",
+        "status": "claimed"
+      },
+      {
+        "name": "ISO 22000:2005",
+        "scope": "Certified facilities",
+        "status": "claimed"
+      },
+      {
+        "name": "BRC",
+        "scope": "Certified facilities",
+        "status": "claimed"
+      },
+      {
+        "name": "FDA Registered",
+        "scope": "Facility registration",
+        "status": "claimed"
+      }
+    ],
+    "contacts": [
+      {
+        "contact_type": "phone",
+        "label": "Main",
+        "value": "+30 210-9730712",
+        "is_primary": true
+      }
+    ],
+    "public_data_gaps": [
+      "MOQ by product family",
+      "Lead times",
+      "Packaging formats",
+      "Export markets"
+    ],
+    "sources": [
+      {
+        "url": "https://novafood.gr/",
+        "source_type": "official_website",
+        "notes": "Primary source for products, certifications and private-label claim."
+      }
+    ]
+  },
+  {
+    "research_status": "manually_reviewed",
+    "company": {
+      "display_name": "Gusto Dairy",
+      "legal_name": "Gusto Dairy S.A.",
+      "organization_type": "manufacturer",
+      "website_url": "https://www.gustodairy.gr/",
+      "country_code": "GR",
+      "headquarters_city": "Katerini",
+      "headquarters_region": "Central Macedonia",
+      "summary": "Greek dairy and cheese manufacturer with private-label and vegan product lines.",
+      "priority_tier": 1
+    },
+    "market_presence": {
+      "serves_greece": true,
+      "regions_in_greece": [
+        "Central Macedonia"
+      ],
+      "export_markets": [],
+      "channels": [
+        "retail",
+        "horeca",
+        "wholesale",
+        "export"
+      ]
+    },
+    "stage_coverage": [
+      "manufacturing",
+      "private_label",
+      "packaging",
+      "cold_chain",
+      "distribution"
+    ],
+    "offerings": [
+      {
+        "name": "PDO and non-PDO dairy products",
+        "offering_type": "finished_product",
+        "product_tags": [
+          "feta PDO",
+          "white cheese crumbles",
+          "manouri PDO",
+          "semi-hard cheese",
+          "gouda",
+          "mozzarella"
+        ],
+        "stage_coverage": [
+          "manufacturing",
+          "private_label",
+          "cold_chain"
+        ],
+        "private_label_supported": true,
+        "notes": "Private-label page explicitly covers domestic and international programs."
+      },
+      {
+        "name": "Vegan cheese line",
+        "offering_type": "finished_product",
+        "product_tags": [
+          "vegan mozzarella",
+          "vegan cheese alternatives"
+        ],
+        "stage_coverage": [
+          "manufacturing",
+          "private_label"
+        ],
+        "private_label_supported": true,
+        "notes": "Technical specification PDF confirms vegan mozzarella product line."
+      }
+    ],
+    "contacts": [
+      {
+        "contact_type": "email",
+        "label": "General",
+        "value": "info@gustodairy.gr",
+        "is_primary": true
+      },
+      {
+        "contact_type": "phone",
+        "label": "Main",
+        "value": "+30 23510 42619",
+        "is_primary": false
+      }
+    ],
+    "public_data_gaps": [
+      "Exact plant-level certification set",
+      "Packaging formats by cheese family",
+      "MOQ and lead times",
+      "Delivery coverage in Greece"
+    ],
+    "sources": [
+      {
+        "url": "https://www.gustodairy.gr/private-label/?lang=en",
+        "source_type": "official_website",
+        "notes": "Primary source for private-label orientation and dairy categories."
+      },
+      {
+        "url": "https://www.gustodairy.gr/wp-content/uploads/2018/02/Specifications_Vegan_Mozzarella_EN.pdf",
+        "source_type": "technical_document",
+        "notes": "Technical specification for vegan mozzarella."
+      }
+    ]
+  },
+  {
+    "research_status": "manually_reviewed",
+    "company": {
+      "display_name": "DAMA",
+      "legal_name": null,
+      "organization_type": "producer",
+      "website_url": "https://www.dama.com.gr/",
+      "country_code": "GR",
+      "headquarters_city": null,
+      "headquarters_region": null,
+      "summary": "Greek produce-focused operator with private-label and field-to-shelf traceability claims.",
+      "priority_tier": 1
+    },
+    "market_presence": {
+      "serves_greece": true,
+      "regions_in_greece": [],
+      "export_markets": [],
+      "channels": [
+        "retail",
+        "wholesale",
+        "distributor"
+      ]
+    },
+    "stage_coverage": [
+      "agricultural_production",
+      "primary_processing",
+      "private_label",
+      "packaging",
+      "distribution"
+    ],
+    "offerings": [
+      {
+        "name": "Fruit and vegetable supply",
+        "offering_type": "ingredient",
+        "product_tags": [
+          "fruit",
+          "vegetables"
+        ],
+        "stage_coverage": [
+          "agricultural_production",
+          "primary_processing"
+        ],
+        "private_label_supported": false,
+        "notes": "Public site positions the company around certified produce."
+      },
+      {
+        "name": "Private-label supermarket supply",
+        "offering_type": "service",
+        "product_tags": [
+          "private label",
+          "supermarket supply",
+          "traceability"
+        ],
+        "stage_coverage": [
+          "private_label",
+          "packaging",
+          "distribution"
+        ],
+        "private_label_supported": true,
+        "notes": "Site states supply to large supermarket chains with traceability from field to shelf."
+      }
+    ],
+    "capabilities": [
+      "private_label",
+      "traceability",
+      "supermarket_supply"
+    ],
+    "public_data_gaps": [
+      "Exact crop list by season",
+      "Facility locations",
+      "Certification names",
+      "Cold-chain and delivery model"
+    ],
+    "sources": [
+      {
+        "url": "https://www.dama.com.gr/en/private-label/",
+        "source_type": "official_website",
+        "notes": "Primary source for private-label and traceability claims."
+      }
+    ]
+  },
+  {
+    "research_status": "manually_reviewed",
+    "company": {
+      "display_name": "Nosgea",
+      "legal_name": null,
+      "organization_type": "manufacturer",
+      "website_url": "https://nosgea.gr/",
+      "country_code": "GR",
+      "headquarters_city": null,
+      "headquarters_region": null,
+      "summary": "Greek food manufacturer oriented toward culinary products and foodservice categories.",
+      "priority_tier": 1
+    },
+    "market_presence": {
+      "serves_greece": true,
+      "regions_in_greece": [],
+      "export_markets": [],
+      "channels": [
+        "horeca",
+        "wholesale",
+        "industrial"
+      ]
+    },
+    "stage_coverage": [
+      "product_development",
+      "manufacturing",
+      "packaging"
+    ],
+    "offerings": [
+      {
+        "name": "Culinary products and foodservice items",
+        "offering_type": "finished_product",
+        "product_tags": [
+          "sauces",
+          "broths",
+          "blends",
+          "culinary ingredients"
+        ],
+        "stage_coverage": [
+          "product_development",
+          "manufacturing"
+        ],
+        "private_label_supported": null,
+        "notes": "Site positioning suggests chef-oriented and prepared-food use cases."
+      }
+    ],
+    "public_data_gaps": [
+      "Exact private-label availability",
+      "Certification set",
+      "MOQ and packaging formats",
+      "Facility details"
+    ],
+    "sources": [
+      {
+        "url": "https://nosgea.gr/",
+        "source_type": "official_website",
+        "notes": "Primary source for brand and product orientation."
+      }
+    ]
+  },
+  {
+    "research_status": "manually_reviewed",
+    "company": {
+      "display_name": "VEKIOS / Ranco Pak",
+      "legal_name": "VEKIOS S.A.",
+      "organization_type": "packaging_supplier",
+      "website_url": "https://www.vekios.gr/en/",
+      "country_code": "GR",
+      "headquarters_city": null,
+      "headquarters_region": null,
+      "summary": "Greek thermoformed food packaging supplier with design, prototyping and mold-production workflow.",
+      "priority_tier": 2
+    },
+    "market_presence": {
+      "serves_greece": true,
+      "regions_in_greece": [],
+      "export_markets": [],
+      "channels": [
+        "industrial",
+        "distributor"
+      ]
+    },
+    "stage_coverage": [
+      "packaging"
+    ],
+    "offerings": [
+      {
+        "name": "Thermoformed food packaging",
+        "offering_type": "packaging",
+        "product_tags": [
+          "bowls",
+          "clamshells",
+          "lids",
+          "plastic food containers"
+        ],
+        "stage_coverage": [
+          "packaging"
+        ],
+        "private_label_supported": null,
+        "notes": "Site emphasizes custom packaging design and mold construction."
+      }
+    ],
+    "capabilities": [
+      "product_design",
+      "prototyping",
+      "custom_molds",
+      "food_packaging_production"
+    ],
+    "certifications": [
+      {
+        "name": "ISO 9001:2015",
+        "scope": "Quality management",
+        "status": "claimed"
+      },
+      {
+        "name": "ISO 22000:2018",
+        "scope": "Food safety management",
+        "status": "claimed"
+      }
+    ],
+    "public_data_gaps": [
+      "MOQ by custom mold",
+      "Food category compatibility",
+      "Lead times",
+      "Decoration and printing support"
+    ],
+    "sources": [
+      {
+        "url": "https://www.vekios.gr/en/",
+        "source_type": "official_website",
+        "notes": "Primary source for capabilities, products and certifications."
+      }
+    ]
+  },
+  {
+    "research_status": "manually_reviewed",
+    "company": {
+      "display_name": "VIS",
+      "legal_name": null,
+      "organization_type": "packaging_supplier",
+      "website_url": "https://www.vis.gr/?lang=en",
+      "country_code": "GR",
+      "headquarters_city": null,
+      "headquarters_region": null,
+      "summary": "Greek packaging supplier relevant for cartons, bag-in-box and agricultural packaging.",
+      "priority_tier": 2
+    },
+    "market_presence": {
+      "serves_greece": true,
+      "regions_in_greece": [],
+      "export_markets": [],
+      "channels": [
+        "industrial",
+        "distributor"
+      ]
+    },
+    "stage_coverage": [
+      "packaging"
+    ],
+    "offerings": [
+      {
+        "name": "Carton and industrial packaging",
+        "offering_type": "packaging",
+        "product_tags": [
+          "carton boxes",
+          "3-layer cartons",
+          "5-layer cartons",
+          "bag-in-box",
+          "agricultural packaging"
+        ],
+        "stage_coverage": [
+          "packaging"
+        ],
+        "private_label_supported": null,
+        "notes": "Public product pages show custom dimensions and up to 4-color printing."
+      }
+    ],
+    "contacts": [
+      {
+        "contact_type": "email",
+        "label": "General",
+        "value": "info@vis.gr",
+        "is_primary": true
+      },
+      {
+        "contact_type": "phone",
+        "label": "Main",
+        "value": "+30 210 61 61 300",
+        "is_primary": false
+      }
+    ],
+    "public_data_gaps": [
+      "Exact food-contact certification scope",
+      "MOQ by print run",
+      "Warehouse and delivery support",
+      "Material selection guide"
+    ],
+    "sources": [
+      {
+        "url": "https://www.vis.gr/%CF%87%CE%B1%CF%81%CF%84%CE%BF%CE%BA%CE%B9%CE%B2%CF%8E%CF%84%CE%B9%CE%B1?lang=en",
+        "source_type": "official_website",
+        "notes": "Primary source for carton-box capability and contact details."
+      }
+    ]
+  },
+  {
+    "research_status": "manually_reviewed",
+    "company": {
+      "display_name": "MACPAC",
+      "legal_name": "MACPAC S.A.",
+      "organization_type": "packaging_supplier",
+      "website_url": "https://www.macpac.gr/",
+      "country_code": "GR",
+      "headquarters_city": null,
+      "headquarters_region": null,
+      "summary": "Greek packaging supplier with recyclable PET formats suitable for fresh produce and food retail.",
+      "priority_tier": 2
+    },
+    "market_presence": {
+      "serves_greece": true,
+      "regions_in_greece": [],
+      "export_markets": [],
+      "channels": [
+        "industrial",
+        "distributor"
+      ]
+    },
+    "stage_coverage": [
+      "packaging"
+    ],
+    "offerings": [
+      {
+        "name": "Produce packaging formats",
+        "offering_type": "packaging",
+        "product_tags": [
+          "pet clamshell punnet",
+          "produce packaging",
+          "recyclable packaging"
+        ],
+        "stage_coverage": [
+          "packaging"
+        ],
+        "private_label_supported": null,
+        "notes": "Public product page is suitable for grapes, cherries, apricots, kiwi and similar fresh produce."
+      }
+    ],
+    "capabilities": [
+      "food_approved_packaging",
+      "recyclable_pet",
+      "manual_and_machine_compatibility"
+    ],
+    "public_data_gaps": [
+      "Full catalog scope",
+      "MOQ and pallet policies",
+      "Custom sizing options",
+      "Delivery coverage"
+    ],
+    "sources": [
+      {
+        "url": "https://www.macpac.gr/product/pet-punnet-clamshell-500gr-82-height-cls-500-82/",
+        "source_type": "official_website",
+        "notes": "Specific product evidence for food-approved produce packaging."
+      }
+    ]
+  },
+  {
+    "research_status": "manually_reviewed",
+    "company": {
+      "display_name": "EXELIXIS",
+      "legal_name": null,
+      "organization_type": "logistics_provider",
+      "website_url": "https://exelixis-horeca.gr/",
+      "country_code": "GR",
+      "headquarters_city": "Thessaloniki",
+      "headquarters_region": "Central Macedonia",
+      "summary": "Greek food and beverage 3PL provider with WMS-backed storage, picking and multi-temperature distribution.",
+      "priority_tier": 1
+    },
+    "market_presence": {
+      "serves_greece": true,
+      "regions_in_greece": [
+        "National"
+      ],
+      "export_markets": [],
+      "channels": [
+        "horeca",
+        "retail",
+        "wholesale",
+        "distributor"
+      ]
+    },
+    "stage_coverage": [
+      "warehousing",
+      "cold_chain",
+      "distribution"
+    ],
+    "offerings": [
+      {
+        "name": "Food and beverage 3PL",
+        "offering_type": "logistics_service",
+        "product_tags": [
+          "receipt and unloading",
+          "storage",
+          "picking",
+          "micro-picking",
+          "distribution"
+        ],
+        "stage_coverage": [
+          "warehousing",
+          "cold_chain",
+          "distribution"
+        ],
+        "private_label_supported": false,
+        "notes": "Public site lists WMS-driven traceability, FEFO picking and multi-temperature fleet support."
+      }
+    ],
+    "capabilities": [
+      "traceability",
+      "warehouse_management_system",
+      "live_tracking",
+      "micro_picking",
+      "smart_routing",
+      "multi_temperature_fleet"
+    ],
+    "certifications": [
+      {
+        "name": "IFS Logistics",
+        "scope": "Storage and logistics",
+        "status": "claimed"
+      },
+      {
+        "name": "ISO 9000",
+        "scope": "Quality management",
+        "status": "claimed"
+      },
+      {
+        "name": "ISO 22000",
+        "scope": "Food safety management",
+        "status": "claimed"
+      }
+    ],
+    "facilities": [
+      {
+        "facility_type": "distribution_center",
+        "city": "Thessaloniki",
+        "region": "Central Macedonia",
+        "address": "10th km Thessalonikis - Katerinis, National Road, Thessaloniki, 57400, Greece",
+        "temperature_zones": [
+          "multi_temperature"
+        ],
+        "notes": "Logistics center listed on the 3PL page."
+      }
+    ],
+    "contacts": [
+      {
+        "contact_type": "email",
+        "label": "General",
+        "value": "info@exelixis-horeca.gr",
+        "is_primary": true
+      },
+      {
+        "contact_type": "phone",
+        "label": "Main",
+        "value": "+30 2310 799506",
+        "is_primary": false
+      }
+    ],
+    "public_data_gaps": [
+      "Commercial pricing model",
+      "SLA terms",
+      "System integration details",
+      "Coverage by temperature lane"
+    ],
+    "sources": [
+      {
+        "url": "https://exelixis-horeca.gr/en/ypiresies/logistics-3pl/",
+        "source_type": "official_website",
+        "notes": "Primary source for 3PL process, certifications and contact details."
+      }
+    ]
+  },
+  {
+    "research_status": "manually_reviewed",
+    "company": {
+      "display_name": "Arcafroz",
+      "legal_name": null,
+      "organization_type": "logistics_provider",
+      "website_url": "https://www.arcafroz.gr/",
+      "country_code": "GR",
+      "headquarters_city": null,
+      "headquarters_region": null,
+      "summary": "Greek cold-storage operator serving food companies and agricultural producers with specialty refrigeration options.",
+      "priority_tier": 2
+    },
+    "market_presence": {
+      "serves_greece": true,
+      "regions_in_greece": [],
+      "export_markets": [],
+      "channels": [
+        "industrial",
+        "wholesale",
+        "distributor"
+      ]
+    },
+    "stage_coverage": [
+      "warehousing",
+      "cold_chain",
+      "distribution"
+    ],
+    "offerings": [
+      {
+        "name": "Cold storage and traceability-led logistics",
+        "offering_type": "logistics_service",
+        "product_tags": [
+          "refrigerated storage",
+          "frozen storage",
+          "modified atmosphere storage",
+          "dairy ripening",
+          "online stock information"
+        ],
+        "stage_coverage": [
+          "warehousing",
+          "cold_chain",
+          "distribution"
+        ],
+        "private_label_supported": false,
+        "notes": "Public site lists specialty storage conditions for apples, pears, cheeses and beehives."
+      }
+    ],
+    "capabilities": [
+      "traceability",
+      "specialty_cold_storage",
+      "online_stock_visibility"
+    ],
+    "public_data_gaps": [
+      "Service geography",
+      "Transport fleet details",
+      "Commercial minimums",
+      "Integration and API support"
+    ],
+    "sources": [
+      {
+        "url": "https://www.arcafroz.gr/en/logistics-2/",
+        "source_type": "official_website",
+        "notes": "Primary source for cold-storage service list and traceability claims."
+      }
+    ]
+  },
+  {
+    "research_status": "manually_reviewed",
+    "company": {
+      "display_name": "Lomvardos Cold Stores",
+      "legal_name": "Lomvardos Cold Stores S.A.",
+      "organization_type": "logistics_provider",
+      "website_url": "https://www.lomvardos.gr/default.aspx?lang=en",
+      "country_code": "GR",
+      "headquarters_city": "Volos",
+      "headquarters_region": "Thessaly",
+      "summary": "Regional cold-storage and logistics operator in Volos industrial zone.",
+      "priority_tier": 2
+    },
+    "market_presence": {
+      "serves_greece": true,
+      "regions_in_greece": [
+        "Thessaly"
+      ],
+      "export_markets": [],
+      "channels": [
+        "industrial",
+        "wholesale",
+        "distributor"
+      ]
+    },
+    "stage_coverage": [
+      "warehousing",
+      "cold_chain",
+      "distribution"
+    ],
+    "offerings": [
+      {
+        "name": "Cold storage and logistics services",
+        "offering_type": "logistics_service",
+        "product_tags": [
+          "cold storage",
+          "logistics services"
+        ],
+        "stage_coverage": [
+          "warehousing",
+          "cold_chain",
+          "distribution"
+        ],
+        "private_label_supported": false,
+        "notes": "Public website is sparse, but clearly positions the company as a cold-storage logistics provider."
+      }
+    ],
+    "contacts": [
+      {
+        "contact_type": "phone",
+        "label": "Main",
+        "value": "+30 24210 95062",
+        "is_primary": true
+      }
+    ],
+    "public_data_gaps": [
+      "Temperature zones",
+      "Storage capacities",
+      "Certification set",
+      "Coverage radius"
+    ],
+    "sources": [
+      {
+        "url": "https://www.lomvardos.gr/default.aspx?lang=en",
+        "source_type": "official_website",
+        "notes": "English landing page."
+      },
+      {
+        "url": "https://www.lomvardos.gr/contents.aspx?catid=26&lang=gr",
+        "source_type": "official_website",
+        "notes": "Greek contact and location page."
+      }
+    ]
+  }
+]
