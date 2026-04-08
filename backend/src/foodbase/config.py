@@ -11,6 +11,8 @@ class Settings(BaseSettings):
     app_host: str = "127.0.0.1"
     app_port: int = 8000
     database_url: str = "postgresql+psycopg://foodbase:foodbase@localhost:5432/foodbase"
+    supabase_url: str | None = None
+    supabase_service_role_key: str | None = None
     cors_origins: list[str] = Field(default_factory=list)
 
     model_config = SettingsConfigDict(
