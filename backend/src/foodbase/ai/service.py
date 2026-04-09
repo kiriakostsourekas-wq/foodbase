@@ -66,7 +66,15 @@ def generate_product_profile(
         "temperature": 0.2,
         "max_completion_tokens": 1200,
     }
-    response = client.chat.completions.create(**response_params)
+    try:
+        response = client.chat.completions.create(**response_params)
+    except HTTPException:
+        raise
+    except Exception as exc:
+        raise HTTPException(
+            status_code=502,
+            detail="The AI provider request failed while generating the product profile.",
+        ) from exc
     parsed = _parse_structured_response(response.choices[0].message.content, ProductProfileResponse)
 
     normalized_category = _normalize_category(parsed.category_slug, categories, payload.prompt)
@@ -406,7 +414,8 @@ def _normalize_category(
 
 def _get_groq_client() -> Groq:
     settings = get_settings()
-    if settings.groq_api_key is None:
+    api_key = settings.groq_api_key.get_secret_value().strip() if settings.groq_api_key else ""
+    if not api_key:
         raise HTTPException(
             status_code=503,
             detail=(
@@ -414,7 +423,7 @@ def _get_groq_client() -> Groq:
                 "AI features."
             ),
         )
-    return Groq(api_key=settings.groq_api_key.get_secret_value())
+    return Groq(api_key=api_key)
 
 
 def _json_schema_response_format(

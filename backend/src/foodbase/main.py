@@ -28,7 +28,7 @@ def create_app() -> FastAPI:
             "docs_url": "/docs",
         }
 
-    app.include_router(api_router, prefix="/api")
+    app.include_router(api_router, prefix=settings.normalized_api_prefix)
     return app
 
 

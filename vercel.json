@@ -1,0 +1,17 @@
+{
+  "experimentalServices": {
+    "web": {
+      "entrypoint": "frontend",
+      "routePrefix": "/"
+    },
+    "api": {
+      "entrypoint": "backend/main.py",
+      "routePrefix": "/api",
+      "includeFiles": [
+        "backend/src/**",
+        "backend/pyproject.toml"
+      ],
+      "maxDuration": 30
+    }
+  }
+}

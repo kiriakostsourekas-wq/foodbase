@@ -16,6 +16,7 @@ This repository is now organized as a multi-app workspace.
 1. Start the backend from [`backend/`](backend/README.md)
 2. Start the frontend from [`frontend/README.md`](frontend/README.md)
 3. Add `FOODBASE_GROQ_API_KEY` to `backend/.env` if you want the AI routes to generate live product briefs and supplier teams
+4. For Vercel Services deployment, keep the frontend calling `/api` and set `FOODBASE_API_PREFIX=` in the deployed backend service environment
 
 ## Current Backend Capabilities
 

@@ -11,6 +11,7 @@ class Settings(BaseSettings):
     app_name: str = "Foodbase API"
     app_host: str = "127.0.0.1"
     app_port: int = 8000
+    api_prefix: str = "/api"
     database_url: str | None = None
     db_password: SecretStr | None = None
     db_host: str = "db.mpuhtiktoajptolmapgy.supabase.co"
@@ -53,6 +54,15 @@ class Settings(BaseSettings):
             f"{quote_plus(self.db_user)}:{quote_plus(self.db_password.get_secret_value())}"
             f"@{self.db_host}:{self.db_port}/{self.db_name}?sslmode={quote_plus(self.db_sslmode)}"
         )
+
+    @property
+    def normalized_api_prefix(self) -> str:
+        value = self.api_prefix.strip()
+        if value in {"", "/"}:
+            return ""
+        if not value.startswith("/"):
+            value = f"/{value}"
+        return value.rstrip("/")
 
 
 @lru_cache(maxsize=1)

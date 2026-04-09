@@ -77,10 +77,11 @@ The repository now includes a professional Python backend starter:
 3. Copy env vars: `cp .env.example .env`
 4. Fill `FOODBASE_DB_PASSWORD` in `.env`
 5. Fill `FOODBASE_GROQ_API_KEY` in `.env` if you want the AI endpoints to call Groq
-6. Check the database connection: `make db-check`
-7. Apply the schema and seed reference data: `make db-init`
-8. Generate and import the olive-oil pilot: `make pilot-import`
-9. Run the API: `.venv/bin/uvicorn foodbase.main:app --reload`
+6. Leave `FOODBASE_DATABASE_URL` blank unless you have a fully URL-encoded connection string
+7. Check the database connection: `make db-check`
+8. Apply the schema and seed reference data: `make db-init`
+9. Generate and import the olive-oil pilot: `make pilot-import`
+10. Run the API: `.venv/bin/uvicorn foodbase.main:app --reload`
 
 Run backend commands from the `backend/` directory.
 
@@ -160,6 +161,21 @@ The backend now exposes the first DB-backed read surface:
 - `GET /api/search-facets`
 - `POST /api/ai/product-profile`
 - `POST /api/ai/supplier-team`
+
+## Vercel Services Deployment
+
+The repository now includes a root [vercel.json](../vercel.json) configured for Vercel Services:
+
+- `web` serves the Vite frontend from `frontend/`
+- `api` serves FastAPI from `backend/main.py` under `/api`
+
+For the deployed backend service, set:
+
+- `FOODBASE_API_PREFIX=`
+- `FOODBASE_DB_PASSWORD=...`
+- `FOODBASE_GROQ_API_KEY=...`
+
+Keep the frontend `VITE_API_BASE_URL` at `/api` so browser requests stay same-origin on Vercel.
 
 These endpoints are intentionally shaped around the current supplier-facing frontend pages:
 
