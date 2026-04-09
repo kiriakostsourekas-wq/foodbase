@@ -330,6 +330,22 @@
             "null"
           ]
         },
+        "headquarters_latitude": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": -90,
+          "maximum": 90
+        },
+        "headquarters_longitude": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": -180,
+          "maximum": 180
+        },
         "summary": {
           "type": [
             "string",
@@ -356,6 +372,12 @@
       "properties": {
         "name": {
           "type": "string"
+        },
+        "product_category_slug": {
+          "type": [
+            "string",
+            "null"
+          ]
         },
         "subcategory": {
           "type": [
@@ -615,6 +637,12 @@
             "other"
           ]
         },
+        "name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
         "city": {
           "type": [
             "string",
@@ -632,6 +660,22 @@
             "string",
             "null"
           ]
+        },
+        "latitude": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": -90,
+          "maximum": 90
+        },
+        "longitude": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": -180,
+          "maximum": 180
         },
         "temperature_zones": {
           "type": "array",
@@ -788,6 +832,12 @@
         "url": {
           "type": "string",
           "format": "uri"
+        },
+        "title": {
+          "type": [
+            "string",
+            "null"
+          ]
         },
         "source_type": {
           "type": "string",

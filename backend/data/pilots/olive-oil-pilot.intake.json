@@ -1,0 +1,2541 @@
+[
+  {
+    "research_status": "verified",
+    "company": {
+      "display_name": "Abea Anatoli",
+      "legal_name": "Abea Anatoli",
+      "organization_type": "mixed",
+      "founded_year": null,
+      "ownership_model": "private_company",
+      "employee_count_range": null,
+      "website_url": "https://www.abea.gr",
+      "country_code": "GR",
+      "headquarters_city": "Chania",
+      "headquarters_region": "Crete",
+      "headquarters_latitude": 35.5138,
+      "headquarters_longitude": 24.018,
+      "summary": "Abea Anatoli is a curated Greek olive oil supplier based in Chania, Crete. The profile combines company website evidence with local directory ingestion for the first Foodbase olive-oil pilot.",
+      "priority_tier": 1
+    },
+    "market_presence": {
+      "serves_greece": true,
+      "regions_in_greece": [
+        "Crete"
+      ],
+      "export_markets": [],
+      "supported_languages": [],
+      "channels": [],
+      "export_license_status": "unknown",
+      "export_license_notes": null
+    },
+    "stage_coverage": [
+      "agricultural_production",
+      "primary_processing",
+      "packaging"
+    ],
+    "offerings": [
+      {
+        "name": "Olive Oil",
+        "product_category_slug": "olive-oil",
+        "subcategory": "Cretan Olive Oil",
+        "variety_or_cultivar": null,
+        "offering_type": "finished_product",
+        "product_tags": [
+          "olive oil"
+        ],
+        "packaging_formats": [],
+        "stage_coverage": [
+          "agricultural_production",
+          "primary_processing",
+          "packaging"
+        ],
+        "private_label_supported": null,
+        "notes": "Curated from local scrape evidence for the Foodbase olive-oil pilot."
+      }
+    ],
+    "capabilities": [],
+    "certifications": [],
+    "geographical_indications": [],
+    "facilities": [
+      {
+        "facility_type": "head_office",
+        "name": "Abea Anatoli headquarters",
+        "city": "Chania",
+        "region": "Crete",
+        "address": null,
+        "latitude": 35.5138,
+        "longitude": 24.018,
+        "temperature_zones": [],
+        "notes": null
+      }
+    ],
+    "contacts": [
+      {
+        "contact_type": "email",
+        "label": "General",
+        "value": "abea@abea.gr",
+        "is_primary": true
+      },
+      {
+        "contact_type": "phone",
+        "label": "Main",
+        "value": "2821096071",
+        "is_primary": true
+      },
+      {
+        "contact_type": "website",
+        "label": "Website",
+        "value": "https://www.abea.gr",
+        "is_primary": true
+      }
+    ],
+    "capacity_profiles": [
+      {
+        "capacity_scope": "organization",
+        "capacity_kind": "available_capacity",
+        "minimum_order_quantity": "On request",
+        "notes": "Public capacity figures were not disclosed in the source material."
+      }
+    ],
+    "commercial_terms": {
+      "minimum_order_quantity": "On request",
+      "lead_time": "On request",
+      "sample_policy": null,
+      "incoterms": []
+    },
+    "public_data_gaps": [
+      "Exact production volume",
+      "Spare capacity by harvest year",
+      "Lead time by packaging format",
+      "Minimum order quantity by SKU"
+    ],
+    "sources": [
+      {
+        "url": "https://www.abea.gr",
+        "source_type": "official_website",
+        "title": null,
+        "notes": "Primary company website."
+      },
+      {
+        "url": "https://madeingreece.com/food-companies/",
+        "source_type": "trade_directory",
+        "title": null,
+        "notes": "Directory evidence from madeingreece."
+      }
+    ],
+    "notes": "Olive-oil pilot record generated from the merged scrape dataset."
+  },
+  {
+    "research_status": "verified",
+    "company": {
+      "display_name": "Afoi I Foufa Ae",
+      "legal_name": "Afoi I Foufa Ae",
+      "organization_type": "mixed",
+      "founded_year": null,
+      "ownership_model": "private_company",
+      "employee_count_range": null,
+      "website_url": "https://www.foufas-oliveoil.gr",
+      "country_code": "GR",
+      "headquarters_city": "Tripoli",
+      "headquarters_region": "Peloponnese",
+      "headquarters_latitude": 37.5089,
+      "headquarters_longitude": 22.3794,
+      "summary": "Afoi I Foufa Ae is a curated Greek olive oil supplier based in Tripoli, Peloponnese. The profile combines company website evidence with local directory ingestion for the first Foodbase olive-oil pilot.",
+      "priority_tier": 1
+    },
+    "market_presence": {
+      "serves_greece": true,
+      "regions_in_greece": [
+        "Peloponnese"
+      ],
+      "export_markets": [],
+      "supported_languages": [],
+      "channels": [],
+      "export_license_status": "unknown",
+      "export_license_notes": null
+    },
+    "stage_coverage": [
+      "agricultural_production",
+      "primary_processing",
+      "packaging"
+    ],
+    "offerings": [
+      {
+        "name": "Olive Oil",
+        "product_category_slug": "olive-oil",
+        "subcategory": "Extra Virgin Olive Oil",
+        "variety_or_cultivar": null,
+        "offering_type": "finished_product",
+        "product_tags": [
+          "olive oil"
+        ],
+        "packaging_formats": [],
+        "stage_coverage": [
+          "agricultural_production",
+          "primary_processing",
+          "packaging"
+        ],
+        "private_label_supported": null,
+        "notes": "Curated from local scrape evidence for the Foodbase olive-oil pilot."
+      }
+    ],
+    "capabilities": [],
+    "certifications": [],
+    "geographical_indications": [],
+    "facilities": [
+      {
+        "facility_type": "head_office",
+        "name": "Afoi I Foufa Ae headquarters",
+        "city": "Tripoli",
+        "region": "Peloponnese",
+        "address": null,
+        "latitude": 37.5089,
+        "longitude": 22.3794,
+        "temperature_zones": [],
+        "notes": null
+      }
+    ],
+    "contacts": [
+      {
+        "contact_type": "email",
+        "label": "General",
+        "value": "foufasg@otenet.gr",
+        "is_primary": true
+      },
+      {
+        "contact_type": "phone",
+        "label": "Main",
+        "value": "2755041031",
+        "is_primary": true
+      },
+      {
+        "contact_type": "website",
+        "label": "Website",
+        "value": "https://www.foufas-oliveoil.gr",
+        "is_primary": true
+      }
+    ],
+    "capacity_profiles": [
+      {
+        "capacity_scope": "organization",
+        "capacity_kind": "available_capacity",
+        "minimum_order_quantity": "On request",
+        "notes": "Public capacity figures were not disclosed in the source material."
+      }
+    ],
+    "commercial_terms": {
+      "minimum_order_quantity": "On request",
+      "lead_time": "On request",
+      "sample_policy": null,
+      "incoterms": []
+    },
+    "public_data_gaps": [
+      "Exact production volume",
+      "Spare capacity by harvest year",
+      "Lead time by packaging format",
+      "Minimum order quantity by SKU"
+    ],
+    "sources": [
+      {
+        "url": "https://www.foufas-oliveoil.gr",
+        "source_type": "official_website",
+        "title": null,
+        "notes": "Primary company website."
+      },
+      {
+        "url": "https://madeingreece.com/food-companies/",
+        "source_type": "trade_directory",
+        "title": null,
+        "notes": "Directory evidence from madeingreece."
+      }
+    ],
+    "notes": "Olive-oil pilot record generated from the merged scrape dataset."
+  },
+  {
+    "research_status": "verified",
+    "company": {
+      "display_name": "Afoi I Kalogirou Ae",
+      "legal_name": "Afoi I Kalogirou Ae",
+      "organization_type": "mixed",
+      "founded_year": null,
+      "ownership_model": "private_company",
+      "employee_count_range": null,
+      "website_url": "https://www.kalogirosolives.com",
+      "country_code": "GR",
+      "headquarters_city": "Volos",
+      "headquarters_region": "Thessaly",
+      "headquarters_latitude": 39.361,
+      "headquarters_longitude": 22.9422,
+      "summary": "Afoi I Kalogirou Ae is a curated Greek olive oil supplier based in Volos, Thessaly. The profile combines company website evidence with local directory ingestion for the first Foodbase olive-oil pilot.",
+      "priority_tier": 1
+    },
+    "market_presence": {
+      "serves_greece": true,
+      "regions_in_greece": [
+        "Thessaly"
+      ],
+      "export_markets": [],
+      "supported_languages": [],
+      "channels": [],
+      "export_license_status": "unknown",
+      "export_license_notes": null
+    },
+    "stage_coverage": [
+      "agricultural_production",
+      "primary_processing",
+      "packaging"
+    ],
+    "offerings": [
+      {
+        "name": "Olive Oil",
+        "product_category_slug": "olive-oil",
+        "subcategory": "Extra Virgin Olive Oil",
+        "variety_or_cultivar": null,
+        "offering_type": "finished_product",
+        "product_tags": [
+          "olive oil"
+        ],
+        "packaging_formats": [],
+        "stage_coverage": [
+          "agricultural_production",
+          "primary_processing",
+          "packaging"
+        ],
+        "private_label_supported": null,
+        "notes": "Curated from local scrape evidence for the Foodbase olive-oil pilot."
+      }
+    ],
+    "capabilities": [],
+    "certifications": [],
+    "geographical_indications": [],
+    "facilities": [
+      {
+        "facility_type": "head_office",
+        "name": "Afoi I Kalogirou Ae headquarters",
+        "city": "Volos",
+        "region": "Thessaly",
+        "address": null,
+        "latitude": 39.361,
+        "longitude": 22.9422,
+        "temperature_zones": [],
+        "notes": null
+      }
+    ],
+    "contacts": [
+      {
+        "contact_type": "email",
+        "label": "General",
+        "value": "kalogirosolives@gmail.com",
+        "is_primary": true
+      },
+      {
+        "contact_type": "phone",
+        "label": "Main",
+        "value": "2425022990",
+        "is_primary": true
+      },
+      {
+        "contact_type": "website",
+        "label": "Website",
+        "value": "https://www.kalogirosolives.com",
+        "is_primary": true
+      }
+    ],
+    "capacity_profiles": [
+      {
+        "capacity_scope": "organization",
+        "capacity_kind": "available_capacity",
+        "minimum_order_quantity": "On request",
+        "notes": "Public capacity figures were not disclosed in the source material."
+      }
+    ],
+    "commercial_terms": {
+      "minimum_order_quantity": "On request",
+      "lead_time": "On request",
+      "sample_policy": null,
+      "incoterms": []
+    },
+    "public_data_gaps": [
+      "Exact production volume",
+      "Spare capacity by harvest year",
+      "Lead time by packaging format",
+      "Minimum order quantity by SKU"
+    ],
+    "sources": [
+      {
+        "url": "https://www.kalogirosolives.com",
+        "source_type": "official_website",
+        "title": null,
+        "notes": "Primary company website."
+      },
+      {
+        "url": "https://madeingreece.com/food-companies/",
+        "source_type": "trade_directory",
+        "title": null,
+        "notes": "Directory evidence from madeingreece."
+      }
+    ],
+    "notes": "Olive-oil pilot record generated from the merged scrape dataset."
+  },
+  {
+    "research_status": "verified",
+    "company": {
+      "display_name": "Afoi Kargaki Ae",
+      "legal_name": "Afoi Kargaki Ae",
+      "organization_type": "mixed",
+      "founded_year": null,
+      "ownership_model": "private_company",
+      "employee_count_range": null,
+      "website_url": "https://www.cretel.gr",
+      "country_code": "GR",
+      "headquarters_city": "Heraklion",
+      "headquarters_region": "Crete",
+      "headquarters_latitude": 35.3387,
+      "headquarters_longitude": 25.1442,
+      "summary": "Afoi Kargaki Ae is a curated Greek olive oil supplier based in Heraklion, Crete. The profile combines company website evidence with local directory ingestion for the first Foodbase olive-oil pilot.",
+      "priority_tier": 1
+    },
+    "market_presence": {
+      "serves_greece": true,
+      "regions_in_greece": [
+        "Crete"
+      ],
+      "export_markets": [],
+      "supported_languages": [],
+      "channels": [],
+      "export_license_status": "unknown",
+      "export_license_notes": null
+    },
+    "stage_coverage": [
+      "agricultural_production",
+      "primary_processing",
+      "packaging"
+    ],
+    "offerings": [
+      {
+        "name": "Olive Oil",
+        "product_category_slug": "olive-oil",
+        "subcategory": "Extra Virgin Olive Oil",
+        "variety_or_cultivar": null,
+        "offering_type": "finished_product",
+        "product_tags": [
+          "olive oil"
+        ],
+        "packaging_formats": [],
+        "stage_coverage": [
+          "agricultural_production",
+          "primary_processing",
+          "packaging"
+        ],
+        "private_label_supported": null,
+        "notes": "Curated from local scrape evidence for the Foodbase olive-oil pilot."
+      }
+    ],
+    "capabilities": [],
+    "certifications": [],
+    "geographical_indications": [],
+    "facilities": [
+      {
+        "facility_type": "head_office",
+        "name": "Afoi Kargaki Ae headquarters",
+        "city": "Heraklion",
+        "region": "Crete",
+        "address": null,
+        "latitude": 35.3387,
+        "longitude": 25.1442,
+        "temperature_zones": [],
+        "notes": null
+      }
+    ],
+    "contacts": [
+      {
+        "contact_type": "email",
+        "label": "General",
+        "value": "logistirio@cretel.gr",
+        "is_primary": true
+      },
+      {
+        "contact_type": "phone",
+        "label": "Main",
+        "value": "2892023543",
+        "is_primary": true
+      },
+      {
+        "contact_type": "website",
+        "label": "Website",
+        "value": "https://www.cretel.gr",
+        "is_primary": true
+      }
+    ],
+    "capacity_profiles": [
+      {
+        "capacity_scope": "organization",
+        "capacity_kind": "available_capacity",
+        "minimum_order_quantity": "On request",
+        "notes": "Public capacity figures were not disclosed in the source material."
+      }
+    ],
+    "commercial_terms": {
+      "minimum_order_quantity": "On request",
+      "lead_time": "On request",
+      "sample_policy": null,
+      "incoterms": []
+    },
+    "public_data_gaps": [
+      "Exact production volume",
+      "Spare capacity by harvest year",
+      "Lead time by packaging format",
+      "Minimum order quantity by SKU"
+    ],
+    "sources": [
+      {
+        "url": "https://www.cretel.gr",
+        "source_type": "official_website",
+        "title": null,
+        "notes": "Primary company website."
+      },
+      {
+        "url": "https://madeingreece.com/food-companies/",
+        "source_type": "trade_directory",
+        "title": null,
+        "notes": "Directory evidence from madeingreece."
+      }
+    ],
+    "notes": "Olive-oil pilot record generated from the merged scrape dataset."
+  },
+  {
+    "research_status": "verified",
+    "company": {
+      "display_name": "Afoi Kidonaki Oe",
+      "legal_name": "Afoi Kidonaki Oe",
+      "organization_type": "mixed",
+      "founded_year": null,
+      "ownership_model": "private_company",
+      "employee_count_range": null,
+      "website_url": "https://www.oilcrete.com",
+      "country_code": "GR",
+      "headquarters_city": "Heraklion",
+      "headquarters_region": "Crete",
+      "headquarters_latitude": 35.3387,
+      "headquarters_longitude": 25.1442,
+      "summary": "Afoi Kidonaki Oe is a curated Greek olive oil supplier based in Heraklion, Crete. The profile combines company website evidence with local directory ingestion for the first Foodbase olive-oil pilot.",
+      "priority_tier": 1
+    },
+    "market_presence": {
+      "serves_greece": true,
+      "regions_in_greece": [
+        "Crete"
+      ],
+      "export_markets": [],
+      "supported_languages": [],
+      "channels": [],
+      "export_license_status": "unknown",
+      "export_license_notes": null
+    },
+    "stage_coverage": [
+      "agricultural_production",
+      "primary_processing",
+      "packaging"
+    ],
+    "offerings": [
+      {
+        "name": "Olive Oil",
+        "product_category_slug": "olive-oil",
+        "subcategory": "Extra Virgin Olive Oil",
+        "variety_or_cultivar": null,
+        "offering_type": "finished_product",
+        "product_tags": [
+          "olive oil"
+        ],
+        "packaging_formats": [],
+        "stage_coverage": [
+          "agricultural_production",
+          "primary_processing",
+          "packaging"
+        ],
+        "private_label_supported": null,
+        "notes": "Curated from local scrape evidence for the Foodbase olive-oil pilot."
+      }
+    ],
+    "capabilities": [],
+    "certifications": [],
+    "geographical_indications": [],
+    "facilities": [
+      {
+        "facility_type": "head_office",
+        "name": "Afoi Kidonaki Oe headquarters",
+        "city": "Heraklion",
+        "region": "Crete",
+        "address": null,
+        "latitude": 35.3387,
+        "longitude": 25.1442,
+        "temperature_zones": [],
+        "notes": null
+      }
+    ],
+    "contacts": [
+      {
+        "contact_type": "email",
+        "label": "General",
+        "value": "info@oilcrete.com",
+        "is_primary": true
+      },
+      {
+        "contact_type": "phone",
+        "label": "Main",
+        "value": "2892051615",
+        "is_primary": true
+      },
+      {
+        "contact_type": "website",
+        "label": "Website",
+        "value": "https://www.oilcrete.com",
+        "is_primary": true
+      }
+    ],
+    "capacity_profiles": [
+      {
+        "capacity_scope": "organization",
+        "capacity_kind": "available_capacity",
+        "minimum_order_quantity": "On request",
+        "notes": "Public capacity figures were not disclosed in the source material."
+      }
+    ],
+    "commercial_terms": {
+      "minimum_order_quantity": "On request",
+      "lead_time": "On request",
+      "sample_policy": null,
+      "incoterms": []
+    },
+    "public_data_gaps": [
+      "Exact production volume",
+      "Spare capacity by harvest year",
+      "Lead time by packaging format",
+      "Minimum order quantity by SKU"
+    ],
+    "sources": [
+      {
+        "url": "https://www.oilcrete.com",
+        "source_type": "official_website",
+        "title": null,
+        "notes": "Primary company website."
+      },
+      {
+        "url": "https://madeingreece.com/food-companies/",
+        "source_type": "trade_directory",
+        "title": null,
+        "notes": "Directory evidence from madeingreece."
+      }
+    ],
+    "notes": "Olive-oil pilot record generated from the merged scrape dataset."
+  },
+  {
+    "research_status": "verified",
+    "company": {
+      "display_name": "Agroeleourgiki Monoprossopi Ike",
+      "legal_name": "Agroeleourgiki Monoprossopi Ike",
+      "organization_type": "mixed",
+      "founded_year": null,
+      "ownership_model": "private_company",
+      "employee_count_range": null,
+      "website_url": "https://agrolive.gr",
+      "country_code": "GR",
+      "headquarters_city": "Kalamata",
+      "headquarters_region": "Peloponnese",
+      "headquarters_latitude": 37.0389,
+      "headquarters_longitude": 22.1142,
+      "summary": "Agroeleourgiki Monoprossopi Ike is a curated Greek olive oil supplier based in Kalamata, Peloponnese. The profile combines company website evidence with local directory ingestion for the first Foodbase olive-oil pilot.",
+      "priority_tier": 1
+    },
+    "market_presence": {
+      "serves_greece": true,
+      "regions_in_greece": [
+        "Peloponnese"
+      ],
+      "export_markets": [],
+      "supported_languages": [],
+      "channels": [],
+      "export_license_status": "unknown",
+      "export_license_notes": null
+    },
+    "stage_coverage": [
+      "agricultural_production",
+      "primary_processing",
+      "packaging"
+    ],
+    "offerings": [
+      {
+        "name": "Olive Oil",
+        "product_category_slug": "olive-oil",
+        "subcategory": "Extra Virgin Olive Oil",
+        "variety_or_cultivar": "Koroneiki",
+        "offering_type": "finished_product",
+        "product_tags": [
+          "olive oil"
+        ],
+        "packaging_formats": [],
+        "stage_coverage": [
+          "agricultural_production",
+          "primary_processing",
+          "packaging"
+        ],
+        "private_label_supported": null,
+        "notes": "Curated from local scrape evidence for the Foodbase olive-oil pilot."
+      }
+    ],
+    "capabilities": [],
+    "certifications": [],
+    "geographical_indications": [],
+    "facilities": [
+      {
+        "facility_type": "head_office",
+        "name": "Agroeleourgiki Monoprossopi Ike headquarters",
+        "city": "Kalamata",
+        "region": "Peloponnese",
+        "address": null,
+        "latitude": 37.0389,
+        "longitude": 22.1142,
+        "temperature_zones": [],
+        "notes": null
+      }
+    ],
+    "contacts": [
+      {
+        "contact_type": "email",
+        "label": "General",
+        "value": "info@agrolivegroup.com",
+        "is_primary": true
+      },
+      {
+        "contact_type": "phone",
+        "label": "Main",
+        "value": "2724027002",
+        "is_primary": true
+      },
+      {
+        "contact_type": "website",
+        "label": "Website",
+        "value": "https://agrolive.gr",
+        "is_primary": true
+      }
+    ],
+    "capacity_profiles": [
+      {
+        "capacity_scope": "organization",
+        "capacity_kind": "available_capacity",
+        "minimum_order_quantity": "On request",
+        "notes": "Public capacity figures were not disclosed in the source material."
+      }
+    ],
+    "commercial_terms": {
+      "minimum_order_quantity": "On request",
+      "lead_time": "On request",
+      "sample_policy": null,
+      "incoterms": []
+    },
+    "public_data_gaps": [
+      "Exact production volume",
+      "Spare capacity by harvest year",
+      "Lead time by packaging format",
+      "Minimum order quantity by SKU"
+    ],
+    "sources": [
+      {
+        "url": "https://agrolive.gr",
+        "source_type": "official_website",
+        "title": null,
+        "notes": "Primary company website."
+      },
+      {
+        "url": "https://madeingreece.com/food-companies/",
+        "source_type": "trade_directory",
+        "title": null,
+        "notes": "Directory evidence from madeingreece."
+      }
+    ],
+    "notes": "Olive-oil pilot record generated from the merged scrape dataset."
+  },
+  {
+    "research_status": "verified",
+    "company": {
+      "display_name": "Agrosparta Sa",
+      "legal_name": "Agrosparta Sa",
+      "organization_type": "mixed",
+      "founded_year": null,
+      "ownership_model": "private_company",
+      "employee_count_range": null,
+      "website_url": "https://agrosparta.gr",
+      "country_code": "GR",
+      "headquarters_city": "Sparta",
+      "headquarters_region": "Peloponnese",
+      "headquarters_latitude": 37.0731,
+      "headquarters_longitude": 22.4297,
+      "summary": "Agrosparta Sa is a curated Greek olive oil supplier based in Sparta, Peloponnese. The profile combines company website evidence with local directory ingestion for the first Foodbase olive-oil pilot.",
+      "priority_tier": 1
+    },
+    "market_presence": {
+      "serves_greece": true,
+      "regions_in_greece": [
+        "Peloponnese"
+      ],
+      "export_markets": [],
+      "supported_languages": [],
+      "channels": [],
+      "export_license_status": "unknown",
+      "export_license_notes": null
+    },
+    "stage_coverage": [
+      "agricultural_production",
+      "primary_processing",
+      "packaging"
+    ],
+    "offerings": [
+      {
+        "name": "Olive Oil",
+        "product_category_slug": "olive-oil",
+        "subcategory": "Laconian Olive Oil",
+        "variety_or_cultivar": "Koroneiki",
+        "offering_type": "finished_product",
+        "product_tags": [
+          "olive oil"
+        ],
+        "packaging_formats": [],
+        "stage_coverage": [
+          "agricultural_production",
+          "primary_processing",
+          "packaging"
+        ],
+        "private_label_supported": null,
+        "notes": "Curated from local scrape evidence for the Foodbase olive-oil pilot."
+      }
+    ],
+    "capabilities": [],
+    "certifications": [],
+    "geographical_indications": [],
+    "facilities": [
+      {
+        "facility_type": "head_office",
+        "name": "Agrosparta Sa headquarters",
+        "city": "Sparta",
+        "region": "Peloponnese",
+        "address": null,
+        "latitude": 37.0731,
+        "longitude": 22.4297,
+        "temperature_zones": [],
+        "notes": null
+      }
+    ],
+    "contacts": [
+      {
+        "contact_type": "email",
+        "label": "General",
+        "value": "sales@agrosparta.gr",
+        "is_primary": true
+      },
+      {
+        "contact_type": "phone",
+        "label": "Main",
+        "value": "2731025264",
+        "is_primary": true
+      },
+      {
+        "contact_type": "website",
+        "label": "Website",
+        "value": "https://agrosparta.gr",
+        "is_primary": true
+      }
+    ],
+    "capacity_profiles": [
+      {
+        "capacity_scope": "organization",
+        "capacity_kind": "available_capacity",
+        "minimum_order_quantity": "On request",
+        "notes": "Public capacity figures were not disclosed in the source material."
+      }
+    ],
+    "commercial_terms": {
+      "minimum_order_quantity": "On request",
+      "lead_time": "On request",
+      "sample_policy": null,
+      "incoterms": []
+    },
+    "public_data_gaps": [
+      "Exact production volume",
+      "Spare capacity by harvest year",
+      "Lead time by packaging format",
+      "Minimum order quantity by SKU"
+    ],
+    "sources": [
+      {
+        "url": "https://agrosparta.gr",
+        "source_type": "official_website",
+        "title": null,
+        "notes": "Primary company website."
+      },
+      {
+        "url": "https://madeingreece.com/food-companies/",
+        "source_type": "trade_directory",
+        "title": null,
+        "notes": "Directory evidence from madeingreece."
+      }
+    ],
+    "notes": "Olive-oil pilot record generated from the merged scrape dataset."
+  },
+  {
+    "research_status": "verified",
+    "company": {
+      "display_name": "Agrotikos Synetairismos Eleoparagogon Thrapsanou",
+      "legal_name": "Agrotikos Synetairismos Eleoparagogon Thrapsanou",
+      "organization_type": "producer",
+      "founded_year": null,
+      "ownership_model": "cooperative",
+      "employee_count_range": null,
+      "website_url": "https://www.cretan-olive-oil.gr",
+      "country_code": "GR",
+      "headquarters_city": "Heraklion",
+      "headquarters_region": "Crete",
+      "headquarters_latitude": 35.3387,
+      "headquarters_longitude": 25.1442,
+      "summary": "Agrotikos Synetairismos Eleoparagogon Thrapsanou is a curated Greek olive oil supplier based in Heraklion, Crete. The profile combines company website evidence with local directory ingestion for the first Foodbase olive-oil pilot.",
+      "priority_tier": 1
+    },
+    "market_presence": {
+      "serves_greece": true,
+      "regions_in_greece": [
+        "Crete"
+      ],
+      "export_markets": [],
+      "supported_languages": [],
+      "channels": [],
+      "export_license_status": "unknown",
+      "export_license_notes": null
+    },
+    "stage_coverage": [
+      "agricultural_production",
+      "primary_processing",
+      "packaging"
+    ],
+    "offerings": [
+      {
+        "name": "Olive Oil",
+        "product_category_slug": "olive-oil",
+        "subcategory": "Extra Virgin Olive Oil",
+        "variety_or_cultivar": null,
+        "offering_type": "finished_product",
+        "product_tags": [
+          "olive oil"
+        ],
+        "packaging_formats": [],
+        "stage_coverage": [
+          "agricultural_production",
+          "primary_processing",
+          "packaging"
+        ],
+        "private_label_supported": null,
+        "notes": "Curated from local scrape evidence for the Foodbase olive-oil pilot."
+      }
+    ],
+    "capabilities": [],
+    "certifications": [],
+    "geographical_indications": [],
+    "facilities": [
+      {
+        "facility_type": "head_office",
+        "name": "Agrotikos Synetairismos Eleoparagogon Thrapsanou headquarters",
+        "city": "Heraklion",
+        "region": "Crete",
+        "address": null,
+        "latitude": 35.3387,
+        "longitude": 25.1442,
+        "temperature_zones": [],
+        "notes": null
+      }
+    ],
+    "contacts": [
+      {
+        "contact_type": "email",
+        "label": "General",
+        "value": "agrotikossineterismos@hotmail.com",
+        "is_primary": true
+      },
+      {
+        "contact_type": "phone",
+        "label": "Main",
+        "value": "2891041862",
+        "is_primary": true
+      },
+      {
+        "contact_type": "website",
+        "label": "Website",
+        "value": "https://www.cretan-olive-oil.gr",
+        "is_primary": true
+      }
+    ],
+    "capacity_profiles": [
+      {
+        "capacity_scope": "organization",
+        "capacity_kind": "available_capacity",
+        "minimum_order_quantity": "On request",
+        "notes": "Public capacity figures were not disclosed in the source material."
+      }
+    ],
+    "commercial_terms": {
+      "minimum_order_quantity": "On request",
+      "lead_time": "On request",
+      "sample_policy": null,
+      "incoterms": []
+    },
+    "public_data_gaps": [
+      "Exact production volume",
+      "Spare capacity by harvest year",
+      "Lead time by packaging format",
+      "Minimum order quantity by SKU"
+    ],
+    "sources": [
+      {
+        "url": "https://www.cretan-olive-oil.gr",
+        "source_type": "official_website",
+        "title": null,
+        "notes": "Primary company website."
+      },
+      {
+        "url": "https://madeingreece.com/food-companies/",
+        "source_type": "trade_directory",
+        "title": null,
+        "notes": "Directory evidence from madeingreece."
+      }
+    ],
+    "notes": "Olive-oil pilot record generated from the merged scrape dataset."
+  },
+  {
+    "research_status": "verified",
+    "company": {
+      "display_name": "Agrotikos Synetairismos Palaiopanagias",
+      "legal_name": "Agrotikos Synetairismos Palaiopanagias",
+      "organization_type": "producer",
+      "founded_year": null,
+      "ownership_model": "cooperative",
+      "employee_count_range": null,
+      "website_url": "https://oilsparta-pal.com",
+      "country_code": "GR",
+      "headquarters_city": "Sparta",
+      "headquarters_region": "Peloponnese",
+      "headquarters_latitude": 37.0731,
+      "headquarters_longitude": 22.4297,
+      "summary": "Agrotikos Synetairismos Palaiopanagias is a curated Greek olive oil supplier based in Sparta, Peloponnese. The profile combines company website evidence with local directory ingestion for the first Foodbase olive-oil pilot.",
+      "priority_tier": 1
+    },
+    "market_presence": {
+      "serves_greece": true,
+      "regions_in_greece": [
+        "Peloponnese"
+      ],
+      "export_markets": [],
+      "supported_languages": [],
+      "channels": [],
+      "export_license_status": "unknown",
+      "export_license_notes": null
+    },
+    "stage_coverage": [
+      "agricultural_production",
+      "primary_processing",
+      "packaging"
+    ],
+    "offerings": [
+      {
+        "name": "Olive Oil",
+        "product_category_slug": "olive-oil",
+        "subcategory": "Extra Virgin Olive Oil",
+        "variety_or_cultivar": null,
+        "offering_type": "finished_product",
+        "product_tags": [
+          "olive oil"
+        ],
+        "packaging_formats": [],
+        "stage_coverage": [
+          "agricultural_production",
+          "primary_processing",
+          "packaging"
+        ],
+        "private_label_supported": null,
+        "notes": "Curated from local scrape evidence for the Foodbase olive-oil pilot."
+      }
+    ],
+    "capabilities": [],
+    "certifications": [],
+    "geographical_indications": [],
+    "facilities": [
+      {
+        "facility_type": "head_office",
+        "name": "Agrotikos Synetairismos Palaiopanagias headquarters",
+        "city": "Sparta",
+        "region": "Peloponnese",
+        "address": null,
+        "latitude": 37.0731,
+        "longitude": 22.4297,
+        "temperature_zones": [],
+        "notes": null
+      }
+    ],
+    "contacts": [
+      {
+        "contact_type": "email",
+        "label": "General",
+        "value": "aspalaiopanagias@gmail.com",
+        "is_primary": true
+      },
+      {
+        "contact_type": "phone",
+        "label": "Main",
+        "value": "2731035415",
+        "is_primary": true
+      },
+      {
+        "contact_type": "website",
+        "label": "Website",
+        "value": "https://oilsparta-pal.com",
+        "is_primary": true
+      }
+    ],
+    "capacity_profiles": [
+      {
+        "capacity_scope": "organization",
+        "capacity_kind": "available_capacity",
+        "minimum_order_quantity": "On request",
+        "notes": "Public capacity figures were not disclosed in the source material."
+      }
+    ],
+    "commercial_terms": {
+      "minimum_order_quantity": "On request",
+      "lead_time": "On request",
+      "sample_policy": null,
+      "incoterms": []
+    },
+    "public_data_gaps": [
+      "Exact production volume",
+      "Spare capacity by harvest year",
+      "Lead time by packaging format",
+      "Minimum order quantity by SKU"
+    ],
+    "sources": [
+      {
+        "url": "https://oilsparta-pal.com",
+        "source_type": "official_website",
+        "title": null,
+        "notes": "Primary company website."
+      },
+      {
+        "url": "https://madeingreece.com/food-companies/",
+        "source_type": "trade_directory",
+        "title": null,
+        "notes": "Directory evidence from madeingreece."
+      }
+    ],
+    "notes": "Olive-oil pilot record generated from the merged scrape dataset."
+  },
+  {
+    "research_status": "verified",
+    "company": {
+      "display_name": "Alea Abe",
+      "legal_name": "Alea Abe",
+      "organization_type": "mixed",
+      "founded_year": null,
+      "ownership_model": "private_company",
+      "employee_count_range": null,
+      "website_url": "https://www.alea-sa.gr",
+      "country_code": "GR",
+      "headquarters_city": "Sparta",
+      "headquarters_region": "Peloponnese",
+      "headquarters_latitude": 37.0731,
+      "headquarters_longitude": 22.4297,
+      "summary": "Alea Abe is a curated Greek olive oil supplier based in Sparta, Peloponnese. The profile combines company website evidence with local directory ingestion for the first Foodbase olive-oil pilot.",
+      "priority_tier": 1
+    },
+    "market_presence": {
+      "serves_greece": true,
+      "regions_in_greece": [
+        "Peloponnese"
+      ],
+      "export_markets": [],
+      "supported_languages": [],
+      "channels": [],
+      "export_license_status": "unknown",
+      "export_license_notes": null
+    },
+    "stage_coverage": [
+      "agricultural_production",
+      "primary_processing",
+      "packaging"
+    ],
+    "offerings": [
+      {
+        "name": "Olive Oil",
+        "product_category_slug": "olive-oil",
+        "subcategory": "Extra Virgin Olive Oil",
+        "variety_or_cultivar": null,
+        "offering_type": "finished_product",
+        "product_tags": [
+          "olive oil"
+        ],
+        "packaging_formats": [],
+        "stage_coverage": [
+          "agricultural_production",
+          "primary_processing",
+          "packaging"
+        ],
+        "private_label_supported": null,
+        "notes": "Curated from local scrape evidence for the Foodbase olive-oil pilot."
+      }
+    ],
+    "capabilities": [],
+    "certifications": [],
+    "geographical_indications": [],
+    "facilities": [
+      {
+        "facility_type": "head_office",
+        "name": "Alea Abe headquarters",
+        "city": "Sparta",
+        "region": "Peloponnese",
+        "address": null,
+        "latitude": 37.0731,
+        "longitude": 22.4297,
+        "temperature_zones": [],
+        "notes": null
+      }
+    ],
+    "contacts": [
+      {
+        "contact_type": "email",
+        "label": "General",
+        "value": "info@alea-sa.gr",
+        "is_primary": true
+      },
+      {
+        "contact_type": "phone",
+        "label": "Main",
+        "value": "2731044050",
+        "is_primary": true
+      },
+      {
+        "contact_type": "website",
+        "label": "Website",
+        "value": "https://www.alea-sa.gr",
+        "is_primary": true
+      }
+    ],
+    "capacity_profiles": [
+      {
+        "capacity_scope": "organization",
+        "capacity_kind": "available_capacity",
+        "minimum_order_quantity": "On request",
+        "notes": "Public capacity figures were not disclosed in the source material."
+      }
+    ],
+    "commercial_terms": {
+      "minimum_order_quantity": "On request",
+      "lead_time": "On request",
+      "sample_policy": null,
+      "incoterms": []
+    },
+    "public_data_gaps": [
+      "Exact production volume",
+      "Spare capacity by harvest year",
+      "Lead time by packaging format",
+      "Minimum order quantity by SKU"
+    ],
+    "sources": [
+      {
+        "url": "https://www.alea-sa.gr",
+        "source_type": "official_website",
+        "title": null,
+        "notes": "Primary company website."
+      },
+      {
+        "url": "https://madeingreece.com/food-companies/",
+        "source_type": "trade_directory",
+        "title": null,
+        "notes": "Directory evidence from madeingreece."
+      }
+    ],
+    "notes": "Olive-oil pilot record generated from the merged scrape dataset."
+  },
+  {
+    "research_status": "verified",
+    "company": {
+      "display_name": "Angelos Doukas Margaret Douka Oe",
+      "legal_name": "Angelos Doukas Margaret Douka Oe",
+      "organization_type": "mixed",
+      "founded_year": null,
+      "ownership_model": "private_company",
+      "employee_count_range": null,
+      "website_url": "https://www.aristonoliveoil.gr",
+      "country_code": "GR",
+      "headquarters_city": "Kalamata",
+      "headquarters_region": "Peloponnese",
+      "headquarters_latitude": 37.0389,
+      "headquarters_longitude": 22.1142,
+      "summary": "Angelos Doukas Margaret Douka Oe is a curated Greek olive oil supplier based in Kalamata, Peloponnese. The profile combines company website evidence with local directory ingestion for the first Foodbase olive-oil pilot.",
+      "priority_tier": 1
+    },
+    "market_presence": {
+      "serves_greece": true,
+      "regions_in_greece": [
+        "Peloponnese"
+      ],
+      "export_markets": [],
+      "supported_languages": [],
+      "channels": [],
+      "export_license_status": "unknown",
+      "export_license_notes": null
+    },
+    "stage_coverage": [
+      "agricultural_production",
+      "primary_processing",
+      "packaging"
+    ],
+    "offerings": [
+      {
+        "name": "Olive Oil",
+        "product_category_slug": "olive-oil",
+        "subcategory": "Extra Virgin Olive Oil",
+        "variety_or_cultivar": "Koroneiki",
+        "offering_type": "finished_product",
+        "product_tags": [
+          "olive oil"
+        ],
+        "packaging_formats": [],
+        "stage_coverage": [
+          "agricultural_production",
+          "primary_processing",
+          "packaging"
+        ],
+        "private_label_supported": null,
+        "notes": "Curated from local scrape evidence for the Foodbase olive-oil pilot."
+      }
+    ],
+    "capabilities": [],
+    "certifications": [],
+    "geographical_indications": [],
+    "facilities": [
+      {
+        "facility_type": "head_office",
+        "name": "Angelos Doukas Margaret Douka Oe headquarters",
+        "city": "Kalamata",
+        "region": "Peloponnese",
+        "address": null,
+        "latitude": 37.0389,
+        "longitude": 22.1142,
+        "temperature_zones": [],
+        "notes": null
+      }
+    ],
+    "contacts": [
+      {
+        "contact_type": "email",
+        "label": "General",
+        "value": "aristonhellas@gmail.com",
+        "is_primary": true
+      },
+      {
+        "contact_type": "phone",
+        "label": "Main",
+        "value": "2763022322",
+        "is_primary": true
+      },
+      {
+        "contact_type": "website",
+        "label": "Website",
+        "value": "https://www.aristonoliveoil.gr",
+        "is_primary": true
+      }
+    ],
+    "capacity_profiles": [
+      {
+        "capacity_scope": "organization",
+        "capacity_kind": "available_capacity",
+        "minimum_order_quantity": "On request",
+        "notes": "Public capacity figures were not disclosed in the source material."
+      }
+    ],
+    "commercial_terms": {
+      "minimum_order_quantity": "On request",
+      "lead_time": "On request",
+      "sample_policy": null,
+      "incoterms": []
+    },
+    "public_data_gaps": [
+      "Exact production volume",
+      "Spare capacity by harvest year",
+      "Lead time by packaging format",
+      "Minimum order quantity by SKU"
+    ],
+    "sources": [
+      {
+        "url": "https://www.aristonoliveoil.gr",
+        "source_type": "official_website",
+        "title": null,
+        "notes": "Primary company website."
+      },
+      {
+        "url": "https://madeingreece.com/food-companies/",
+        "source_type": "trade_directory",
+        "title": null,
+        "notes": "Directory evidence from madeingreece."
+      }
+    ],
+    "notes": "Olive-oil pilot record generated from the merged scrape dataset."
+  },
+  {
+    "research_status": "verified",
+    "company": {
+      "display_name": "Apostolakis Kyriakos",
+      "legal_name": "Apostolakis Kyriakos",
+      "organization_type": "mixed",
+      "founded_year": null,
+      "ownership_model": "private_company",
+      "employee_count_range": null,
+      "website_url": "https://www.salvationoliveoil.com",
+      "country_code": "GR",
+      "headquarters_city": "Sparta",
+      "headquarters_region": "Peloponnese",
+      "headquarters_latitude": 37.0731,
+      "headquarters_longitude": 22.4297,
+      "summary": "Apostolakis Kyriakos is a curated Greek olive oil supplier based in Sparta, Peloponnese. The profile combines company website evidence with local directory ingestion for the first Foodbase olive-oil pilot.",
+      "priority_tier": 1
+    },
+    "market_presence": {
+      "serves_greece": true,
+      "regions_in_greece": [
+        "Peloponnese"
+      ],
+      "export_markets": [],
+      "supported_languages": [],
+      "channels": [],
+      "export_license_status": "unknown",
+      "export_license_notes": null
+    },
+    "stage_coverage": [
+      "agricultural_production",
+      "primary_processing",
+      "packaging"
+    ],
+    "offerings": [
+      {
+        "name": "Olive Oil",
+        "product_category_slug": "olive-oil",
+        "subcategory": "Extra Virgin Olive Oil",
+        "variety_or_cultivar": null,
+        "offering_type": "finished_product",
+        "product_tags": [
+          "olive oil"
+        ],
+        "packaging_formats": [],
+        "stage_coverage": [
+          "agricultural_production",
+          "primary_processing",
+          "packaging"
+        ],
+        "private_label_supported": null,
+        "notes": "Curated from local scrape evidence for the Foodbase olive-oil pilot."
+      }
+    ],
+    "capabilities": [],
+    "certifications": [],
+    "geographical_indications": [],
+    "facilities": [
+      {
+        "facility_type": "head_office",
+        "name": "Apostolakis Kyriakos headquarters",
+        "city": "Sparta",
+        "region": "Peloponnese",
+        "address": null,
+        "latitude": 37.0731,
+        "longitude": 22.4297,
+        "temperature_zones": [],
+        "notes": null
+      }
+    ],
+    "contacts": [
+      {
+        "contact_type": "email",
+        "label": "General",
+        "value": "info@salvationoliveoil.com",
+        "is_primary": true
+      },
+      {
+        "contact_type": "phone",
+        "label": "Main",
+        "value": "6972313216",
+        "is_primary": true
+      },
+      {
+        "contact_type": "website",
+        "label": "Website",
+        "value": "https://www.salvationoliveoil.com",
+        "is_primary": true
+      }
+    ],
+    "capacity_profiles": [
+      {
+        "capacity_scope": "organization",
+        "capacity_kind": "available_capacity",
+        "minimum_order_quantity": "On request",
+        "notes": "Public capacity figures were not disclosed in the source material."
+      }
+    ],
+    "commercial_terms": {
+      "minimum_order_quantity": "On request",
+      "lead_time": "On request",
+      "sample_policy": null,
+      "incoterms": []
+    },
+    "public_data_gaps": [
+      "Exact production volume",
+      "Spare capacity by harvest year",
+      "Lead time by packaging format",
+      "Minimum order quantity by SKU"
+    ],
+    "sources": [
+      {
+        "url": "https://www.salvationoliveoil.com",
+        "source_type": "official_website",
+        "title": null,
+        "notes": "Primary company website."
+      },
+      {
+        "url": "https://madeingreece.com/food-companies/",
+        "source_type": "trade_directory",
+        "title": null,
+        "notes": "Directory evidence from madeingreece."
+      }
+    ],
+    "notes": "Olive-oil pilot record generated from the merged scrape dataset."
+  },
+  {
+    "research_status": "verified",
+    "company": {
+      "display_name": "Apostolos Daniilidis",
+      "legal_name": "Apostolos Daniilidis",
+      "organization_type": "mixed",
+      "founded_year": null,
+      "ownership_model": "private_company",
+      "employee_count_range": null,
+      "website_url": "https://gaiaolives.com",
+      "country_code": "GR",
+      "headquarters_city": "Polygyros",
+      "headquarters_region": "Central Macedonia",
+      "headquarters_latitude": 40.377,
+      "headquarters_longitude": 23.441,
+      "summary": "Apostolos Daniilidis is a curated Greek olive oil supplier based in Polygyros, Central Macedonia. The profile combines company website evidence with local directory ingestion for the first Foodbase olive-oil pilot.",
+      "priority_tier": 1
+    },
+    "market_presence": {
+      "serves_greece": true,
+      "regions_in_greece": [
+        "Central Macedonia"
+      ],
+      "export_markets": [],
+      "supported_languages": [],
+      "channels": [],
+      "export_license_status": "unknown",
+      "export_license_notes": null
+    },
+    "stage_coverage": [
+      "agricultural_production",
+      "packaging"
+    ],
+    "offerings": [
+      {
+        "name": "Olive Oil",
+        "product_category_slug": "olive-oil",
+        "subcategory": "Extra Virgin Olive Oil",
+        "variety_or_cultivar": null,
+        "offering_type": "finished_product",
+        "product_tags": [
+          "olive oil"
+        ],
+        "packaging_formats": [],
+        "stage_coverage": [
+          "agricultural_production",
+          "packaging"
+        ],
+        "private_label_supported": null,
+        "notes": "Curated from local scrape evidence for the Foodbase olive-oil pilot."
+      }
+    ],
+    "capabilities": [],
+    "certifications": [],
+    "geographical_indications": [],
+    "facilities": [
+      {
+        "facility_type": "head_office",
+        "name": "Apostolos Daniilidis headquarters",
+        "city": "Polygyros",
+        "region": "Central Macedonia",
+        "address": null,
+        "latitude": 40.377,
+        "longitude": 23.441,
+        "temperature_zones": [],
+        "notes": null
+      }
+    ],
+    "contacts": [
+      {
+        "contact_type": "email",
+        "label": "General",
+        "value": "info@gaiaolives.com",
+        "is_primary": true
+      },
+      {
+        "contact_type": "phone",
+        "label": "Main",
+        "value": "2373091584",
+        "is_primary": true
+      },
+      {
+        "contact_type": "website",
+        "label": "Website",
+        "value": "https://gaiaolives.com",
+        "is_primary": true
+      }
+    ],
+    "capacity_profiles": [
+      {
+        "capacity_scope": "organization",
+        "capacity_kind": "available_capacity",
+        "minimum_order_quantity": "On request",
+        "notes": "Public capacity figures were not disclosed in the source material."
+      }
+    ],
+    "commercial_terms": {
+      "minimum_order_quantity": "On request",
+      "lead_time": "On request",
+      "sample_policy": null,
+      "incoterms": []
+    },
+    "public_data_gaps": [
+      "Exact production volume",
+      "Spare capacity by harvest year",
+      "Lead time by packaging format",
+      "Minimum order quantity by SKU"
+    ],
+    "sources": [
+      {
+        "url": "https://gaiaolives.com",
+        "source_type": "official_website",
+        "title": null,
+        "notes": "Primary company website."
+      },
+      {
+        "url": "https://madeingreece.com/food-companies/",
+        "source_type": "trade_directory",
+        "title": null,
+        "notes": "Directory evidence from madeingreece."
+      }
+    ],
+    "notes": "Olive-oil pilot record generated from the merged scrape dataset."
+  },
+  {
+    "research_status": "verified",
+    "company": {
+      "display_name": "Askra Olive Oil - Ktima Lymperi",
+      "legal_name": "Askra Olive Oil - Ktima Lymperi",
+      "organization_type": "mixed",
+      "founded_year": null,
+      "ownership_model": "private_company",
+      "employee_count_range": null,
+      "website_url": "https://www.askraoliveoil.com",
+      "country_code": "GR",
+      "headquarters_city": "Livadeia",
+      "headquarters_region": "Central Greece",
+      "headquarters_latitude": 38.4354,
+      "headquarters_longitude": 22.8739,
+      "summary": "Askra Olive Oil - Ktima Lymperi is a curated Greek olive oil supplier based in Livadeia, Central Greece. The profile combines company website evidence with local directory ingestion for the first Foodbase olive-oil pilot.",
+      "priority_tier": 1
+    },
+    "market_presence": {
+      "serves_greece": true,
+      "regions_in_greece": [
+        "Central Greece"
+      ],
+      "export_markets": [],
+      "supported_languages": [],
+      "channels": [],
+      "export_license_status": "unknown",
+      "export_license_notes": null
+    },
+    "stage_coverage": [
+      "agricultural_production",
+      "primary_processing",
+      "packaging"
+    ],
+    "offerings": [
+      {
+        "name": "Olive Oil",
+        "product_category_slug": "olive-oil",
+        "subcategory": "Single Estate Olive Oil",
+        "variety_or_cultivar": null,
+        "offering_type": "finished_product",
+        "product_tags": [
+          "olive oil"
+        ],
+        "packaging_formats": [],
+        "stage_coverage": [
+          "agricultural_production",
+          "primary_processing",
+          "packaging"
+        ],
+        "private_label_supported": null,
+        "notes": "Curated from local scrape evidence for the Foodbase olive-oil pilot."
+      }
+    ],
+    "capabilities": [],
+    "certifications": [],
+    "geographical_indications": [],
+    "facilities": [
+      {
+        "facility_type": "head_office",
+        "name": "Askra Olive Oil - Ktima Lymperi headquarters",
+        "city": "Livadeia",
+        "region": "Central Greece",
+        "address": null,
+        "latitude": 38.4354,
+        "longitude": 22.8739,
+        "temperature_zones": [],
+        "notes": null
+      }
+    ],
+    "contacts": [
+      {
+        "contact_type": "email",
+        "label": "General",
+        "value": "info@askraoliveoil.com",
+        "is_primary": true
+      },
+      {
+        "contact_type": "phone",
+        "label": "Main",
+        "value": "2268770701",
+        "is_primary": true
+      },
+      {
+        "contact_type": "website",
+        "label": "Website",
+        "value": "https://www.askraoliveoil.com",
+        "is_primary": true
+      }
+    ],
+    "capacity_profiles": [
+      {
+        "capacity_scope": "organization",
+        "capacity_kind": "available_capacity",
+        "minimum_order_quantity": "On request",
+        "notes": "Public capacity figures were not disclosed in the source material."
+      }
+    ],
+    "commercial_terms": {
+      "minimum_order_quantity": "On request",
+      "lead_time": "On request",
+      "sample_policy": null,
+      "incoterms": []
+    },
+    "public_data_gaps": [
+      "Exact production volume",
+      "Spare capacity by harvest year",
+      "Lead time by packaging format",
+      "Minimum order quantity by SKU"
+    ],
+    "sources": [
+      {
+        "url": "https://www.askraoliveoil.com",
+        "source_type": "official_website",
+        "title": null,
+        "notes": "Primary company website."
+      },
+      {
+        "url": "https://madeingreece.com/food-companies/",
+        "source_type": "trade_directory",
+        "title": null,
+        "notes": "Directory evidence from madeingreece."
+      }
+    ],
+    "notes": "Olive-oil pilot record generated from the merged scrape dataset."
+  },
+  {
+    "research_status": "verified",
+    "company": {
+      "display_name": "Bio Cretan Olive Oil Ltd",
+      "legal_name": "Bio Cretan Olive Oil Ltd",
+      "organization_type": "mixed",
+      "founded_year": null,
+      "ownership_model": "private_company",
+      "employee_count_range": null,
+      "website_url": "http://www.critida.com",
+      "country_code": "GR",
+      "headquarters_city": "Heraklion",
+      "headquarters_region": "Crete",
+      "headquarters_latitude": 35.3387,
+      "headquarters_longitude": 25.1442,
+      "summary": "Bio Cretan Olive Oil Ltd is a curated Greek olive oil supplier based in Heraklion, Crete. The profile combines company website evidence with local directory ingestion for the first Foodbase olive-oil pilot.",
+      "priority_tier": 1
+    },
+    "market_presence": {
+      "serves_greece": true,
+      "regions_in_greece": [
+        "Crete"
+      ],
+      "export_markets": [
+        "Europe"
+      ],
+      "supported_languages": [],
+      "channels": [
+        "export"
+      ],
+      "export_license_status": "unknown",
+      "export_license_notes": null
+    },
+    "stage_coverage": [
+      "agricultural_production",
+      "primary_processing",
+      "manufacturing",
+      "distribution",
+      "warehousing",
+      "ingredient_sourcing",
+      "packaging",
+      "export_shipping"
+    ],
+    "offerings": [
+      {
+        "name": "Olive Oil",
+        "product_category_slug": "olive-oil",
+        "subcategory": "Organic Extra Virgin Olive Oil",
+        "variety_or_cultivar": null,
+        "offering_type": "finished_product",
+        "product_tags": [
+          "olive oil"
+        ],
+        "packaging_formats": [],
+        "stage_coverage": [
+          "agricultural_production",
+          "primary_processing",
+          "manufacturing",
+          "distribution",
+          "warehousing",
+          "ingredient_sourcing",
+          "packaging",
+          "export_shipping"
+        ],
+        "private_label_supported": null,
+        "notes": "Curated from local scrape evidence for the Foodbase olive-oil pilot."
+      }
+    ],
+    "capabilities": [
+      "export_shipping"
+    ],
+    "certifications": [
+      {
+        "name": "Organic EU",
+        "certification_type": "organic",
+        "certificate_number": null,
+        "certified_by": null,
+        "scope": "Olive oil production",
+        "status": "claimed",
+        "issued_at": null,
+        "expires_at": null
+      }
+    ],
+    "geographical_indications": [],
+    "facilities": [
+      {
+        "facility_type": "head_office",
+        "name": "Bio Cretan Olive Oil Ltd headquarters",
+        "city": "Heraklion",
+        "region": "Crete",
+        "address": null,
+        "latitude": 35.3387,
+        "longitude": 25.1442,
+        "temperature_zones": [],
+        "notes": null
+      }
+    ],
+    "contacts": [
+      {
+        "contact_type": "phone",
+        "label": "Main",
+        "value": "+30 2810260464 +30 2810211911",
+        "is_primary": true
+      },
+      {
+        "contact_type": "website",
+        "label": "Website",
+        "value": "http://www.critida.com",
+        "is_primary": true
+      }
+    ],
+    "capacity_profiles": [
+      {
+        "capacity_scope": "organization",
+        "capacity_kind": "available_capacity",
+        "minimum_order_quantity": "On request",
+        "notes": "Public capacity figures were not disclosed in the source material."
+      }
+    ],
+    "commercial_terms": {
+      "minimum_order_quantity": "On request",
+      "lead_time": "On request",
+      "sample_policy": null,
+      "incoterms": []
+    },
+    "public_data_gaps": [
+      "Exact production volume",
+      "Spare capacity by harvest year",
+      "Lead time by packaging format",
+      "Minimum order quantity by SKU"
+    ],
+    "sources": [
+      {
+        "url": "http://www.critida.com",
+        "source_type": "official_website",
+        "title": null,
+        "notes": "Primary company website."
+      },
+      {
+        "url": "http://www.greekexporters.gr/108/categories/olive-oil-olives-pickles.html",
+        "source_type": "trade_directory",
+        "title": null,
+        "notes": "Directory evidence from greekexporters."
+      }
+    ],
+    "notes": "Olive-oil pilot record generated from the merged scrape dataset."
+  },
+  {
+    "research_status": "verified",
+    "company": {
+      "display_name": "Cheliotis Ae",
+      "legal_name": "Cheliotis Ae",
+      "organization_type": "mixed",
+      "founded_year": null,
+      "ownership_model": "private_company",
+      "employee_count_range": null,
+      "website_url": "https://cheliotis.com.gr",
+      "country_code": "GR",
+      "headquarters_city": "Sparta",
+      "headquarters_region": "Peloponnese",
+      "headquarters_latitude": 37.0731,
+      "headquarters_longitude": 22.4297,
+      "summary": "Cheliotis Ae is a curated Greek olive oil supplier based in Sparta, Peloponnese. The profile combines company website evidence with local directory ingestion for the first Foodbase olive-oil pilot.",
+      "priority_tier": 1
+    },
+    "market_presence": {
+      "serves_greece": true,
+      "regions_in_greece": [
+        "Peloponnese"
+      ],
+      "export_markets": [],
+      "supported_languages": [],
+      "channels": [],
+      "export_license_status": "unknown",
+      "export_license_notes": null
+    },
+    "stage_coverage": [
+      "agricultural_production",
+      "primary_processing",
+      "packaging"
+    ],
+    "offerings": [
+      {
+        "name": "Olive Oil",
+        "product_category_slug": "olive-oil",
+        "subcategory": "Extra Virgin Olive Oil",
+        "variety_or_cultivar": null,
+        "offering_type": "finished_product",
+        "product_tags": [
+          "olive oil"
+        ],
+        "packaging_formats": [],
+        "stage_coverage": [
+          "agricultural_production",
+          "primary_processing",
+          "packaging"
+        ],
+        "private_label_supported": null,
+        "notes": "Curated from local scrape evidence for the Foodbase olive-oil pilot."
+      }
+    ],
+    "capabilities": [],
+    "certifications": [],
+    "geographical_indications": [],
+    "facilities": [
+      {
+        "facility_type": "head_office",
+        "name": "Cheliotis Ae headquarters",
+        "city": "Sparta",
+        "region": "Peloponnese",
+        "address": null,
+        "latitude": 37.0731,
+        "longitude": 22.4297,
+        "temperature_zones": [],
+        "notes": null
+      }
+    ],
+    "contacts": [
+      {
+        "contact_type": "email",
+        "label": "General",
+        "value": "cheliot9@otenet.gr",
+        "is_primary": true
+      },
+      {
+        "contact_type": "phone",
+        "label": "Main",
+        "value": "2735041259",
+        "is_primary": true
+      },
+      {
+        "contact_type": "website",
+        "label": "Website",
+        "value": "https://cheliotis.com.gr",
+        "is_primary": true
+      }
+    ],
+    "capacity_profiles": [
+      {
+        "capacity_scope": "organization",
+        "capacity_kind": "available_capacity",
+        "minimum_order_quantity": "On request",
+        "notes": "Public capacity figures were not disclosed in the source material."
+      }
+    ],
+    "commercial_terms": {
+      "minimum_order_quantity": "On request",
+      "lead_time": "On request",
+      "sample_policy": null,
+      "incoterms": []
+    },
+    "public_data_gaps": [
+      "Exact production volume",
+      "Spare capacity by harvest year",
+      "Lead time by packaging format",
+      "Minimum order quantity by SKU"
+    ],
+    "sources": [
+      {
+        "url": "https://cheliotis.com.gr",
+        "source_type": "official_website",
+        "title": null,
+        "notes": "Primary company website."
+      },
+      {
+        "url": "https://madeingreece.com/food-companies/",
+        "source_type": "trade_directory",
+        "title": null,
+        "notes": "Directory evidence from madeingreece."
+      }
+    ],
+    "notes": "Olive-oil pilot record generated from the merged scrape dataset."
+  },
+  {
+    "research_status": "verified",
+    "company": {
+      "display_name": "Deas Ae",
+      "legal_name": "Deas Ae",
+      "organization_type": "mixed",
+      "founded_year": null,
+      "ownership_model": "private_company",
+      "employee_count_range": null,
+      "website_url": "https://deasolives.gr",
+      "country_code": "GR",
+      "headquarters_city": "Polygyros",
+      "headquarters_region": "Central Macedonia",
+      "headquarters_latitude": 40.377,
+      "headquarters_longitude": 23.441,
+      "summary": "Deas Ae is a curated Greek olive oil supplier based in Polygyros, Central Macedonia. The profile combines company website evidence with local directory ingestion for the first Foodbase olive-oil pilot.",
+      "priority_tier": 1
+    },
+    "market_presence": {
+      "serves_greece": true,
+      "regions_in_greece": [
+        "Central Macedonia"
+      ],
+      "export_markets": [],
+      "supported_languages": [],
+      "channels": [],
+      "export_license_status": "unknown",
+      "export_license_notes": null
+    },
+    "stage_coverage": [
+      "agricultural_production",
+      "primary_processing",
+      "packaging"
+    ],
+    "offerings": [
+      {
+        "name": "Olive Oil",
+        "product_category_slug": "olive-oil",
+        "subcategory": "Extra Virgin Olive Oil",
+        "variety_or_cultivar": null,
+        "offering_type": "finished_product",
+        "product_tags": [
+          "olive oil"
+        ],
+        "packaging_formats": [],
+        "stage_coverage": [
+          "agricultural_production",
+          "primary_processing",
+          "packaging"
+        ],
+        "private_label_supported": null,
+        "notes": "Curated from local scrape evidence for the Foodbase olive-oil pilot."
+      }
+    ],
+    "capabilities": [],
+    "certifications": [],
+    "geographical_indications": [],
+    "facilities": [
+      {
+        "facility_type": "head_office",
+        "name": "Deas Ae headquarters",
+        "city": "Polygyros",
+        "region": "Central Macedonia",
+        "address": null,
+        "latitude": 40.377,
+        "longitude": 23.441,
+        "temperature_zones": [],
+        "notes": null
+      }
+    ],
+    "contacts": [
+      {
+        "contact_type": "email",
+        "label": "General",
+        "value": "info@deasolives.gr",
+        "is_primary": true
+      },
+      {
+        "contact_type": "phone",
+        "label": "Main",
+        "value": "2371054300",
+        "is_primary": true
+      },
+      {
+        "contact_type": "website",
+        "label": "Website",
+        "value": "https://deasolives.gr",
+        "is_primary": true
+      }
+    ],
+    "capacity_profiles": [
+      {
+        "capacity_scope": "organization",
+        "capacity_kind": "available_capacity",
+        "minimum_order_quantity": "On request",
+        "notes": "Public capacity figures were not disclosed in the source material."
+      }
+    ],
+    "commercial_terms": {
+      "minimum_order_quantity": "On request",
+      "lead_time": "On request",
+      "sample_policy": null,
+      "incoterms": []
+    },
+    "public_data_gaps": [
+      "Exact production volume",
+      "Spare capacity by harvest year",
+      "Lead time by packaging format",
+      "Minimum order quantity by SKU"
+    ],
+    "sources": [
+      {
+        "url": "https://deasolives.gr",
+        "source_type": "official_website",
+        "title": null,
+        "notes": "Primary company website."
+      },
+      {
+        "url": "https://madeingreece.com/food-companies/",
+        "source_type": "trade_directory",
+        "title": null,
+        "notes": "Directory evidence from madeingreece."
+      }
+    ],
+    "notes": "Olive-oil pilot record generated from the merged scrape dataset."
+  },
+  {
+    "research_status": "verified",
+    "company": {
+      "display_name": "Drousias Aebe",
+      "legal_name": "Drousias Aebe",
+      "organization_type": "mixed",
+      "founded_year": null,
+      "ownership_model": "private_company",
+      "employee_count_range": null,
+      "website_url": "https://www.drousiasolivesa.gr",
+      "country_code": "GR",
+      "headquarters_city": "Sparta",
+      "headquarters_region": "Peloponnese",
+      "headquarters_latitude": 37.0731,
+      "headquarters_longitude": 22.4297,
+      "summary": "Drousias Aebe is a curated Greek olive oil supplier based in Sparta, Peloponnese. The profile combines company website evidence with local directory ingestion for the first Foodbase olive-oil pilot.",
+      "priority_tier": 1
+    },
+    "market_presence": {
+      "serves_greece": true,
+      "regions_in_greece": [
+        "Peloponnese"
+      ],
+      "export_markets": [],
+      "supported_languages": [],
+      "channels": [],
+      "export_license_status": "unknown",
+      "export_license_notes": null
+    },
+    "stage_coverage": [
+      "agricultural_production",
+      "primary_processing",
+      "packaging"
+    ],
+    "offerings": [
+      {
+        "name": "Olive Oil",
+        "product_category_slug": "olive-oil",
+        "subcategory": "Extra Virgin Olive Oil",
+        "variety_or_cultivar": null,
+        "offering_type": "finished_product",
+        "product_tags": [
+          "olive oil"
+        ],
+        "packaging_formats": [],
+        "stage_coverage": [
+          "agricultural_production",
+          "primary_processing",
+          "packaging"
+        ],
+        "private_label_supported": null,
+        "notes": "Curated from local scrape evidence for the Foodbase olive-oil pilot."
+      }
+    ],
+    "capabilities": [],
+    "certifications": [],
+    "geographical_indications": [],
+    "facilities": [
+      {
+        "facility_type": "head_office",
+        "name": "Drousias Aebe headquarters",
+        "city": "Sparta",
+        "region": "Peloponnese",
+        "address": null,
+        "latitude": 37.0731,
+        "longitude": 22.4297,
+        "temperature_zones": [],
+        "notes": null
+      }
+    ],
+    "contacts": [
+      {
+        "contact_type": "email",
+        "label": "General",
+        "value": "info@drousiasolivesa.gr",
+        "is_primary": true
+      },
+      {
+        "contact_type": "phone",
+        "label": "Main",
+        "value": "2731071200",
+        "is_primary": true
+      },
+      {
+        "contact_type": "website",
+        "label": "Website",
+        "value": "https://www.drousiasolivesa.gr",
+        "is_primary": true
+      }
+    ],
+    "capacity_profiles": [
+      {
+        "capacity_scope": "organization",
+        "capacity_kind": "available_capacity",
+        "minimum_order_quantity": "On request",
+        "notes": "Public capacity figures were not disclosed in the source material."
+      }
+    ],
+    "commercial_terms": {
+      "minimum_order_quantity": "On request",
+      "lead_time": "On request",
+      "sample_policy": null,
+      "incoterms": []
+    },
+    "public_data_gaps": [
+      "Exact production volume",
+      "Spare capacity by harvest year",
+      "Lead time by packaging format",
+      "Minimum order quantity by SKU"
+    ],
+    "sources": [
+      {
+        "url": "https://www.drousiasolivesa.gr",
+        "source_type": "official_website",
+        "title": null,
+        "notes": "Primary company website."
+      },
+      {
+        "url": "https://madeingreece.com/food-companies/",
+        "source_type": "trade_directory",
+        "title": null,
+        "notes": "Directory evidence from madeingreece."
+      }
+    ],
+    "notes": "Olive-oil pilot record generated from the merged scrape dataset."
+  },
+  {
+    "research_status": "verified",
+    "company": {
+      "display_name": "Eleia Emporia Ellinikou Eleoladou Ae",
+      "legal_name": "Eleia Emporia Ellinikou Eleoladou Ae",
+      "organization_type": "mixed",
+      "founded_year": null,
+      "ownership_model": "private_company",
+      "employee_count_range": null,
+      "website_url": "https://www.eleia.gr/index_gr.html",
+      "country_code": "GR",
+      "headquarters_city": "Pyrgos",
+      "headquarters_region": "Western Greece",
+      "headquarters_latitude": 37.6751,
+      "headquarters_longitude": 21.441,
+      "summary": "Eleia Emporia Ellinikou Eleoladou Ae is a curated Greek olive oil supplier based in Pyrgos, Western Greece. The profile combines company website evidence with local directory ingestion for the first Foodbase olive-oil pilot.",
+      "priority_tier": 1
+    },
+    "market_presence": {
+      "serves_greece": true,
+      "regions_in_greece": [
+        "Western Greece"
+      ],
+      "export_markets": [],
+      "supported_languages": [],
+      "channels": [],
+      "export_license_status": "unknown",
+      "export_license_notes": null
+    },
+    "stage_coverage": [
+      "agricultural_production",
+      "primary_processing",
+      "packaging"
+    ],
+    "offerings": [
+      {
+        "name": "Olive Oil",
+        "product_category_slug": "olive-oil",
+        "subcategory": "Extra Virgin Olive Oil",
+        "variety_or_cultivar": null,
+        "offering_type": "finished_product",
+        "product_tags": [
+          "olive oil"
+        ],
+        "packaging_formats": [],
+        "stage_coverage": [
+          "agricultural_production",
+          "primary_processing",
+          "packaging"
+        ],
+        "private_label_supported": null,
+        "notes": "Curated from local scrape evidence for the Foodbase olive-oil pilot."
+      }
+    ],
+    "capabilities": [],
+    "certifications": [],
+    "geographical_indications": [],
+    "facilities": [
+      {
+        "facility_type": "head_office",
+        "name": "Eleia Emporia Ellinikou Eleoladou Ae headquarters",
+        "city": "Pyrgos",
+        "region": "Western Greece",
+        "address": null,
+        "latitude": 37.6751,
+        "longitude": 21.441,
+        "temperature_zones": [],
+        "notes": null
+      }
+    ],
+    "contacts": [
+      {
+        "contact_type": "email",
+        "label": "General",
+        "value": "info@eleia.gr",
+        "is_primary": true
+      },
+      {
+        "contact_type": "phone",
+        "label": "Main",
+        "value": "2623022284",
+        "is_primary": true
+      },
+      {
+        "contact_type": "website",
+        "label": "Website",
+        "value": "https://www.eleia.gr/index_gr.html",
+        "is_primary": true
+      }
+    ],
+    "capacity_profiles": [
+      {
+        "capacity_scope": "organization",
+        "capacity_kind": "available_capacity",
+        "minimum_order_quantity": "On request",
+        "notes": "Public capacity figures were not disclosed in the source material."
+      }
+    ],
+    "commercial_terms": {
+      "minimum_order_quantity": "On request",
+      "lead_time": "On request",
+      "sample_policy": null,
+      "incoterms": []
+    },
+    "public_data_gaps": [
+      "Exact production volume",
+      "Spare capacity by harvest year",
+      "Lead time by packaging format",
+      "Minimum order quantity by SKU"
+    ],
+    "sources": [
+      {
+        "url": "https://www.eleia.gr/index_gr.html",
+        "source_type": "official_website",
+        "title": null,
+        "notes": "Primary company website."
+      },
+      {
+        "url": "https://madeingreece.com/food-companies/",
+        "source_type": "trade_directory",
+        "title": null,
+        "notes": "Directory evidence from madeingreece."
+      }
+    ],
+    "notes": "Olive-oil pilot record generated from the merged scrape dataset."
+  },
+  {
+    "research_status": "verified",
+    "company": {
+      "display_name": "Ermilia Olives Ae",
+      "legal_name": "Ermilia Olives Ae",
+      "organization_type": "mixed",
+      "founded_year": null,
+      "ownership_model": "private_company",
+      "employee_count_range": null,
+      "website_url": "https://www.ermiliaolives.com",
+      "country_code": "GR",
+      "headquarters_city": "Polygyros",
+      "headquarters_region": "Central Macedonia",
+      "headquarters_latitude": 40.377,
+      "headquarters_longitude": 23.441,
+      "summary": "Ermilia Olives Ae is a curated Greek olive oil supplier based in Polygyros, Central Macedonia. The profile combines company website evidence with local directory ingestion for the first Foodbase olive-oil pilot.",
+      "priority_tier": 1
+    },
+    "market_presence": {
+      "serves_greece": true,
+      "regions_in_greece": [
+        "Central Macedonia"
+      ],
+      "export_markets": [],
+      "supported_languages": [],
+      "channels": [],
+      "export_license_status": "unknown",
+      "export_license_notes": null
+    },
+    "stage_coverage": [
+      "agricultural_production",
+      "primary_processing",
+      "packaging"
+    ],
+    "offerings": [
+      {
+        "name": "Olive Oil",
+        "product_category_slug": "olive-oil",
+        "subcategory": "Extra Virgin Olive Oil",
+        "variety_or_cultivar": null,
+        "offering_type": "finished_product",
+        "product_tags": [
+          "olive oil"
+        ],
+        "packaging_formats": [],
+        "stage_coverage": [
+          "agricultural_production",
+          "primary_processing",
+          "packaging"
+        ],
+        "private_label_supported": null,
+        "notes": "Curated from local scrape evidence for the Foodbase olive-oil pilot."
+      }
+    ],
+    "capabilities": [],
+    "certifications": [],
+    "geographical_indications": [],
+    "facilities": [
+      {
+        "facility_type": "head_office",
+        "name": "Ermilia Olives Ae headquarters",
+        "city": "Polygyros",
+        "region": "Central Macedonia",
+        "address": null,
+        "latitude": 40.377,
+        "longitude": 23.441,
+        "temperature_zones": [],
+        "notes": null
+      }
+    ],
+    "contacts": [
+      {
+        "contact_type": "email",
+        "label": "General",
+        "value": "export@ermiliaolives.gr",
+        "is_primary": true
+      },
+      {
+        "contact_type": "phone",
+        "label": "Main",
+        "value": "2371098211",
+        "is_primary": true
+      },
+      {
+        "contact_type": "website",
+        "label": "Website",
+        "value": "https://www.ermiliaolives.com",
+        "is_primary": true
+      }
+    ],
+    "capacity_profiles": [
+      {
+        "capacity_scope": "organization",
+        "capacity_kind": "available_capacity",
+        "minimum_order_quantity": "On request",
+        "notes": "Public capacity figures were not disclosed in the source material."
+      }
+    ],
+    "commercial_terms": {
+      "minimum_order_quantity": "On request",
+      "lead_time": "On request",
+      "sample_policy": null,
+      "incoterms": []
+    },
+    "public_data_gaps": [
+      "Exact production volume",
+      "Spare capacity by harvest year",
+      "Lead time by packaging format",
+      "Minimum order quantity by SKU"
+    ],
+    "sources": [
+      {
+        "url": "https://www.ermiliaolives.com",
+        "source_type": "official_website",
+        "title": null,
+        "notes": "Primary company website."
+      },
+      {
+        "url": "https://madeingreece.com/food-companies/",
+        "source_type": "trade_directory",
+        "title": null,
+        "notes": "Directory evidence from madeingreece."
+      }
+    ],
+    "notes": "Olive-oil pilot record generated from the merged scrape dataset."
+  }
+]

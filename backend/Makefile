@@ -5,7 +5,7 @@ PYTEST := .venv/bin/pytest
 RUFF := .venv/bin/ruff
 MYPY := .venv/bin/mypy
 
-.PHONY: install run test lint format typecheck scrape scrape-all combine verify
+.PHONY: install run test lint format typecheck scrape scrape-all combine verify db-check db-init pilot-build pilot-import
 
 install:
 	$(PIP) install --upgrade pip
@@ -34,6 +34,18 @@ scrape-all:
 
 combine:
 	$(PYTHON) -m foodbase.scrapers.combine
+
+db-check:
+	$(PYTHON) -m foodbase.db.bootstrap --check
+
+db-init:
+	$(PYTHON) -m foodbase.db.bootstrap
+
+pilot-build:
+	$(PYTHON) -m foodbase.intake.olive_oil_pilot --output data/pilots/olive-oil-pilot.intake.json
+
+pilot-import:
+	$(PYTHON) -m foodbase.intake.olive_oil_pilot --output data/pilots/olive-oil-pilot.intake.json --import-db
 
 verify:
 	$(RUFF) check src tests

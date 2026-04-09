@@ -12,6 +12,23 @@ begin
 end;
 $$;
 
+create table geographic_regions (
+  id bigint generated always as identity primary key,
+  country_code char(2) not null default 'GR',
+  slug text not null unique,
+  name text not null unique,
+  region_level text not null default 'administrative_region' check (
+    region_level in ('administrative_region', 'island_group', 'country')
+  ),
+  center_latitude double precision,
+  center_longitude double precision,
+  metadata jsonb not null default '{}'::jsonb,
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now()
+);
+
+create index geographic_regions_country_code_idx on geographic_regions (country_code);
+
 create table organizations (
   id bigint generated always as identity primary key,
   slug text not null unique,
@@ -43,9 +60,17 @@ create table organizations (
   ),
   employee_count_range text,
   website_url text check (website_url is null or website_url ~ '^https?://'),
+  website_host text generated always as (
+    case
+      when website_url is null then null
+      else regexp_replace(website_url, '^https?://(www\.)?([^/]+)/?.*$', '\2')
+    end
+  ) stored,
   country_code char(2) not null default 'GR',
   headquarters_city text,
   headquarters_region text,
+  primary_latitude double precision,
+  primary_longitude double precision,
   serves_greece boolean not null default true,
   supported_languages text[] not null default '{}',
   summary text,
@@ -79,8 +104,10 @@ create index organizations_display_name_trgm_idx
 
 create index organizations_type_idx on organizations (organization_type);
 create index organizations_vat_number_idx on organizations (vat_number);
+create index organizations_website_host_idx on organizations (website_host);
 create index organizations_company_registration_number_idx
   on organizations (company_registration_number);
+create index organizations_headquarters_region_idx on organizations (headquarters_region);
 
 create table organization_aliases (
   id bigint generated always as identity primary key,
@@ -156,6 +183,8 @@ create table facilities (
   city text,
   region text,
   address text,
+  latitude double precision,
+  longitude double precision,
   temperature_zones text[] not null default '{}',
   notes text,
   metadata jsonb not null default '{}'::jsonb,
@@ -589,6 +618,10 @@ create table ingestion_runs (
 create index ingestion_runs_organization_id_idx on ingestion_runs (organization_id);
 create index ingestion_runs_source_document_id_idx on ingestion_runs (source_document_id);
 create index ingestion_runs_status_idx on ingestion_runs (run_status);
+
+create trigger geographic_regions_set_updated_at
+before update on geographic_regions
+for each row execute function set_updated_at();
 
 create trigger organizations_set_updated_at
 before update on organizations

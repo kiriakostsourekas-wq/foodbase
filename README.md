@@ -5,9 +5,11 @@ This repository is now organized as a multi-app workspace.
 ## Layout
 
 - `backend/`
-  Python/FastAPI backend, data model, scrapers, tests, and ingestion docs.
+  Python/FastAPI backend, data model, scrapers, tests, importer, and DB-backed read APIs.
 - `frontend/`
   Reserved for the future frontend application.
+- `base44-export-2026-04-08T19-54-02-833Z/`
+  Untouched Base44 frontend export kept as the current UI reference.
 
 ## Current App
 
@@ -17,6 +19,12 @@ Start there:
 
 - [backend/README.md](backend/README.md)
 
-## Next Infra Step
+## Current Backend Capabilities
 
-Once you share the Supabase credentials, the backend can be pointed at Supabase Postgres and the importer / first DB-backed APIs can be built against it.
+The backend now includes:
+
+- password-only Supabase/Postgres configuration support
+- DB connectivity check and schema bootstrap commands
+- seeded categories, certifications, Greek regions, and olive-oil GI definitions
+- a curated 20-profile olive-oil pilot intake file and importer
+- public read APIs for supplier search, supplier detail, categories, GI definitions, and search facets

@@ -53,6 +53,10 @@ Return normalized product and packaging categories.
 
 Return canonical PDO / PGI / TSG definitions for filters, enrichment, and verification workflows.
 
+### `GET /api/search-facets`
+
+Return category, region, certification, and designation options with counts for the discovery UI.
+
 ## Internal Ops APIs
 
 ### `POST /api/intake-profiles`

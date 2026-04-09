@@ -10,5 +10,6 @@
 **/.coverage
 **/htmlcov/
 **/.env
+**/.env.*
+**/node_modules/
 .DS_Store
-frontend/node_modules/
