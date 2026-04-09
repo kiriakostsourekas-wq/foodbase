@@ -76,10 +76,11 @@ The repository now includes a professional Python backend starter:
 2. Install dependencies: `.venv/bin/pip install -e ".[dev]"`
 3. Copy env vars: `cp .env.example .env`
 4. Fill `FOODBASE_DB_PASSWORD` in `.env`
-5. Check the database connection: `make db-check`
-6. Apply the schema and seed reference data: `make db-init`
-7. Generate and import the olive-oil pilot: `make pilot-import`
-8. Run the API: `.venv/bin/uvicorn foodbase.main:app --reload`
+5. Fill `FOODBASE_GROQ_API_KEY` in `.env` if you want the AI endpoints to call Groq
+6. Check the database connection: `make db-check`
+7. Apply the schema and seed reference data: `make db-init`
+8. Generate and import the olive-oil pilot: `make pilot-import`
+9. Run the API: `.venv/bin/uvicorn foodbase.main:app --reload`
 
 Run backend commands from the `backend/` directory.
 
@@ -157,6 +158,8 @@ The backend now exposes the first DB-backed read surface:
 - `GET /api/categories`
 - `GET /api/geographical-indications`
 - `GET /api/search-facets`
+- `POST /api/ai/product-profile`
+- `POST /api/ai/supplier-team`
 
 These endpoints are intentionally shaped around the current supplier-facing frontend pages:
 
@@ -196,7 +199,7 @@ Current results generated in this workspace:
 
 Still deferred in phase 1:
 
-1. frontend wiring changes inside the Base44 export
-2. authenticated write/admin APIs
-3. shortlist ownership, product briefs, and inquiry persistence
+1. authenticated write/admin APIs
+2. shortlist ownership and inquiry persistence
+3. richer non-olive-oil supplier coverage for AI team assembly
 4. verified official GI authorization per organization

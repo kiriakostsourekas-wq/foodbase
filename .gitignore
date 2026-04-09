@@ -12,4 +12,5 @@
 **/.env
 **/.env.*
 **/node_modules/
+base44-export-*/
 .DS_Store

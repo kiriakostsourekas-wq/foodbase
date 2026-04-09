@@ -21,10 +21,14 @@ class Settings(BaseSettings):
     supabase_url: str | None = "https://mpuhtiktoajptolmapgy.supabase.co"
     supabase_service_role_key: SecretStr | None = None
     admin_token: SecretStr | None = None
+    groq_api_key: SecretStr | None = None
+    ai_model: str = "openai/gpt-oss-20b"
     cors_origins: list[str] = Field(
         default_factory=lambda: [
             "http://127.0.0.1:5173",
             "http://localhost:5173",
+            "http://127.0.0.1:4173",
+            "http://localhost:4173",
         ]
     )
 
